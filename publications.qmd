@@ -9,7 +9,7 @@ title: "Publications"
 
 * **Fattahi, S., Soheili, K., Dehghan Jabarabadi, S.** (2018). Oil Price, Financial Markets Index and Inflation in Iran’s Economy. *International Journal of Management and Applied Science (IJMAS)*. [DOI/URL: https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574](https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574)
 
-* **Karimi, MS., Hadarian, M., Dehghan Jabarabadi, S.** (2018). Analysis of Spillover Effects between Oil and Stock Market during Multi-Scales, Using GARCH-BEKK model. *Financial Economics (IAUCTB)*. [DOI/URL: https://journals.iau.ir/article_543455.html?lang=en
+* **Karimi, MS., Hadarian, M., Dehghan Jabarabadi, S.** (2018). Analysis of Spillover Effects between Oil and Stock Market during Multi-Scales, Using GARCH-BEKK model. *Financial Economics (IAUCTB)*. [DOI/URL: https://journals.iau.ir/article_543455.html?lang=en](https://journals.iau.ir/article_543455.html?lang=en)
 
 * **Fattahi, S., Soheili, K., Dehghan Jabarabadi, S.** (2018). Examination of Contagion in Financial Markets in Iran using a Combination of Ornstein Uhlenbeck process and Wavelet Method. *Journal of Econometric Modeling (Semnan University)*. [DOI/URL: https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090](https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090)
 
