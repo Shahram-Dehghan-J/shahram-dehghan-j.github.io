@@ -2,7 +2,7 @@ project:
     
   type: website
   output-dir: docs 
-  title: "Shahram Dehghan jabarabadi"
+  title: "Shahram Dehghan jabarabadi | Postdoc & Expert in Econometrics and Textual Analysis"
 
 
 website:
@@ -61,6 +61,9 @@ format:
   html:
     theme: journal
     css: styles.css
+    html-meta::
+      description: "Personal academic website of Shahram Dehghan Jabarabadi, Postdoctoral Research Fellow at the University of Padua. Specializing in Econometrics, Textual Analysis, and Quantitative Finance with expertise in Time Series, Risk Management (VaR/ES/GARCH), and NLP (Sentiment/Topic Modeling). Research focuses on volatility, ESG indicators, and text-based analysis of economic systems."
+      keywords: "Shahram Dehghan Jabarabadi, Shahram Dehghan, Shahram, Dehghan, Jabarabadi, Economics, Econometrics, Textual Analysis, Quantitative Finance, Time Series Analysis, Risk Management, Natural Language Processing, NLP, Statistical Methods, GARCH, VaR, ES, ESG Integration, Volatility Analysis, Python, R,  University of Salerno, University of Padua, Postdoctoral Fellow, Research, Ph.D., Docotrate, Dr."
     include-in-header:
       - text: |
           <!-- Font Awesome -->
