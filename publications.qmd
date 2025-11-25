@@ -5,7 +5,7 @@ title: "Publications"
 <div class="rule-gradient"></div>
 # <i class="bi bi-journal-check"></i> Published
 
-* **Alam, MS., Amendola, A., Candila, V., Dehghan Jabarabadi, S.** (2024). Is Monetary Policy a Driver of Cryptocurrencies? Evidence from a Structural Break GARCH-MIDAS Approach. *Econometrics*. [DOI/URL: https://doi.org/10.3390/econometrics12010002](https://doi.org/10.3390/econometrics12010002)
+* **Alam, MS., Amendola, A., Candila, V., Dehghan Jabarabadi, S.** (2024). Is Monetary Policy a Driver of Cryptocurrencies? Evidence from a Structural Break GARCH-MIDAS Approach. *Econometrics*. [doi/url: https://doi.org/10.3390/econometrics12010002](https://doi.org/10.3390/econometrics12010002)
 
 * **Fattahi, S., Soheili, K., Dehghan Jabarabadi, S.** (2018). Oil Price, Financial Markets Index and Inflation in Iran’s Economy. *International Journal of Management and Applied Science (IJMAS)*. [doi/url: https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574](https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574)
 
