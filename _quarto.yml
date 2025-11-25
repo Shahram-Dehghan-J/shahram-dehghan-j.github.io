@@ -51,7 +51,7 @@ website:
 
   page-footer:
     left: 
-      - text: "🇮🇷 - 🇮🇹"
+      - text: '🇮🇷 - 🇮🇹 <br> Copyright © 2024. <a href="https://www.wipo.int/copyright/en/" target="_blank">Legal Info</a>'
     right:
       - text: "<strong>© <script>document.write(new Date().getFullYear());</script> Shahram Dehghan Jabarabadi</strong>"
     center: 
