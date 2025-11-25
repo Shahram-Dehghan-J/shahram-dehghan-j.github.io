@@ -1,0 +1,36 @@
+---
+title: "Welcome"
+format: html
+sidebar: false
+---
+
+<img src="websiteIMG.jpg" alt="Profile photo" class="profile-pic" style="float:left; margin-right:10px; width:230px; border-radius:50%;">
+
+<div class="name" style="font-size:0.9em;">Postdoctoral Research Fellow (Ph.D.)</div>
+<div class="name">Shahram Dehghan Jabarabadi</div>
+
+<div class="rule-gradient"></div>
+
+<!-- Bio Section -->
+<div class="bio">
+  <p>
+    He is a Research Fellow at the University of Padova, Italy. He is currently contributing on the PNRR P9-GRINS Growing Resilient project, entitled "Sustainable procurement and CO2 reduction," and the PNRR-CHANGE project, entitled "CHAllenges in National Governance of Environment". He specializes in econometrics, textual analysis, and quantitative economics. His academic background includes a Ph.D. in Economics (Statistical Methods) from the University of Salerno , where his thesis focused on methodological contributions related to ESG indicators, volatility modeling, and text-based approaches to financial markets. He also has completed an international visiting program to focus on Textual Analysis and Application of ESG index on the Financial Risk Management analysis in Department of Economics at the Justus Liebig University Giessen (Germany). His core research interests lie in Textual Analysis, Macroeconomics Time Series, and Risk Management. He leverages extensive programming expertise in Python, R, and MATLAB to combine time-series econometrics, natural language processing (NLP), and statistical modeling to study risk, sustainability, and the dynamics of economic systems.
+  </p>
+  <a href="https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&hl=it&oi=ao" class="btn">
+  <i class="ai ai-google-scholar"></i> Google Scholar
+  </a>
+  <a href="https://orcid.org/0009-0008-4627-7554" class="btn">
+    <i class="ai ai-orcid"></i> ORCID
+  </a>
+  <a href="mailto:shahram.deghan.j@icloud.com" class="btn">
+    <i class="fa-solid fa-envelope"></i> Email
+  </a>
+  <a href="mailto:shahram.deghanjabarabadi@unipd.it" class="btn">
+   <i class="fa-solid fa-envelope"></i> Academic Email
+  </a>
+  <a href="resume.pdf" class="btn">
+    <i class="fa-solid fa-file-lines"></i> Resume
+  </a>
+</div>
+
+<div class="rule-gradient"></div>

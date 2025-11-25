@@ -1,0 +1,32 @@
+---
+title: "Interests"
+---
+
+<div class="rule-gradient"></div>
+# Textual Analysis and Natural Language Processing (NLP)
+
+- Applying text-based methods to extract meaningful economic signals and indices:
+	- **ESG and Sustainability Indicators:** Developing novel Environmental, Social, and Governance (ESG) metrics from textual data for evaluation and risk assessment (*Core of PhD Thesis*).
+	- **Consistency Index of Authorship:** Designing algorithms to detect and analyze the mindset embedded in economics textbooks, with applications to macroeconomic research (*Work in progress*).
+	- **Dictionary-Based Methods:** Creating and refining categorized text-based dictionaries to capture central ideas, particularly in multilingual economic texts (*PRIN-LEXECON project*).
+	- **Sentiment Analysis and Topic Modeling:** Leveraging sentiment extraction and topic modeling to support risk assessment and economic forecasting.
+	- **Data Scraping:** Collecting and structuring unstructured data for analysis and model development.
+
+<div class="rule-gradient"></div>
+# Econometrics and Time Series Analysis
+
+- Capturing dynamics, risk, and volatility in economic and financial data.
+	- **Macroeconomic Time Series:** Modeling and forecasting macroeconomic variables, with attention to external drivers such as policy changes and commodity price fluctuations (*Final chapter of PhD thesis*).
+	- **Volatility Analysis:** Specializing in long-term volatility modeling using mixed-frequency data and advanced GARCH-type approaches (e.g., GARCH-MIDAS).
+	- **Risk Management:** Applying econometric methods to measure financial risk, including Value at Risk (VaR) and Expected Shortfall (ES).
+	- **Time-Frequency Analysis:** Employing **Continuous Wavelet techniques** (e.g., in combination with the Ornstein–Uhlenbeck process) to study time series across multiple scales.
+
+<div class="rule-gradient"></div>
+# Programming and Statistical Modeling
+
+- Leveraging specialized software for data analysis, econometric modeling, and visualization:
+	- **Python:** Skilled in natural language processing (NLP), web scraping, and general data analysis.
+	- **R:** Extensive experience in econometrics, time series modeling, and risk management (VaR, ES, GARCH).
+	- **MATLAB:** Applied to specialized time-frequency analysis of economic and financial time series (Wavelets).
+	- **LaTeX** and **Microsoft Office:** Proficient in academic writing, technical documentation, and professional presentation.
+

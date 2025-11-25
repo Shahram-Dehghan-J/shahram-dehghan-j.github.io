@@ -1,0 +1,24 @@
+---
+title: "Teaching"
+---
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-easel"></i> Teaching
+
+**Introduction to Statistics** &nbsp;&nbsp;&nbsp;&nbsp; Spring 2025 <br>
+Master course <br>
+*"Introduction of the fundamental concepts in Statistics and their Implementation in Python."* <br>
+Department of Economics and Management <br>
+University of Padova (Padova, Italy) <br><br>
+
+**Intermediate Econometrics** &nbsp;&nbsp;&nbsp;&nbsp; Fall 2023 <br>
+Ph.D. Level <br>
+*"Private course for PhD students: Application of R (theoretical and practical aspects) in economic studies."* <br>
+Department of Economics and Statistics <br>
+University of Salerno (Salerno, Italy) <br><br>
+
+**Intermediate Econometrics** &nbsp;&nbsp;&nbsp;&nbsp; Fall 2017 <br>
+Master Level <br>
+*"Introduction of the fundamental concepts in wavelet models over approximately 45 hours."* <br>
+Department of Economics <br>
+Razi University (Kermanshah, Iran) <br><br>

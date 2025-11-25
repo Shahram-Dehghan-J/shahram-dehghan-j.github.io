@@ -1,0 +1,284 @@
+/* styles.css */
+
+/*
+--------------------------------------
+  1. TYPOGRAPHY & BASE STYLES
+--------------------------------------
+*/
+
+/* Base text */
+body {
+  color: #222222;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #002147; /* deep navy */
+  font-weight: 700;
+}
+
+h4, h5, h6 {
+  color: #2F4F6F; /* slate blue for softer subheadings */
+}
+
+/* Links */
+a {
+  color: #0047AB; /* royal blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66b2ff; 
+  text-decoration: underline;
+}
+
+/* Accents */
+.highlight, blockquote {
+  color: #006D77; /* teal accent */
+  border-left: 4px solid #006D77;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+/* Secondary text */
+small, .metadata {
+  color: #555555;
+}
+
+
+/*
+--------------------------------------
+  2. MAIN LAYOUT & STRUCTURAL ELEMENTS
+--------------------------------------
+*/
+
+main {
+  background-color: #ffffff; /* white content area */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* subtle card effect */
+}
+
+.page-footer .nav-footer-right {
+  display: inline-block;   /* force inline */
+  white-space: nowrap;     /* prevent wrapping */
+}
+
+.rule-gradient {
+  height: 3px;
+  background: linear-gradient(to right, transparent, rgba(255, 215, 0, 1), transparent);
+  margin: 1.2rem 0;
+}
+
+
+/*
+--------------------------------------
+  3. NAVIGATION BAR (NAVBAR) STYLES
+--------------------------------------
+*/
+
+.navbar {
+  background-color: #002147; 
+}
+
+/* Base style and hover effect for main menu links */
+.navbar-nav .nav-link {
+  position: relative;
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffcc00; /* gold underline */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Secondary Hover effect */
+.navbar-nav .nav-link:hover {
+  background: linear-gradient(90deg, #0055aa, #0099ff);
+  color: #ffffff !important;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #0055aa;
+  color: #ffffff !important;
+  border-radius: 6px;
+}
+
+/* Dropdown Menu effects */
+.dropdown-menu {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/*
+--------------------------------------
+  4. SIDEBAR STYLES
+--------------------------------------
+*/
+
+.sidebar {
+  width: 265px;
+  background: linear-gradient(135deg, #fdfdfd 0%, #e6f0ff 50%, #fdfdfd 100%);
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 51, 102, 0.05) 0px,
+    rgba(0, 51, 102, 0.05) 2px,
+    transparent 2px,
+    transparent 6px
+  );
+  padding: 8px;
+  border-radius: 5px;
+}
+
+
+.sidebar .nav-item {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+/*
+--------------------------------------
+  5. CUSTOM COMPONENTS (Buttons/Boxes)
+--------------------------------------
+*/
+
+/* Link Button Group (used in content area) */
+.bottom-links {
+  display: flex;
+  justify-content: center;   /* center them horizontally */
+  gap: 1rem;                 /* spacing between buttons */
+  margin-top: 1.5rem;
+}
+
+.link-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95em;
+  color: #333;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+  background: #e6e6e6;
+  border-color: rgba(0,0,0,0.4);
+}
+
+/* Profile Buttons (used in index bio) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.9rem;       /* rectangle size */
+  background-color: #0055aa;    /* light blue fill */
+  color: #fffcfc;
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none;
+  gap: 0.4rem;
+  border: none;                 /* no border around */
+  border-bottom: 3px solid transparent; /* underline placeholder */
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  border-bottom: 3px solid #ffcc00; /* gold underline on hover */
+  color: #1f1f1f;
+}
+
+.btn i {
+  font-size: 1em;
+  color: inherit;               /* icon matches text color */
+}
+
+
+/*
+--------------------------------------
+  6. INDEX.QMD SPECIFIC LAYOUT
+--------------------------------------
+*/
+
+.profile-box {
+  border: 1px solid #ddd;          /* subtle border */
+  background-color: #fdfdfd;       /* very light background */
+  padding: 1rem 1.5rem;            /* space inside the box */
+  border-radius: 8px;              /* rounded corners */
+  margin-top: 2rem;                /* space above the box */
+  text-align: center;              /* center content */
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;                 /* wrap if too many links */
+  gap: 1.2rem;
+}
+
+.bio {
+  max-width: 1000px;          /* keeps text readable */
+  margin: 2rem auto;         /* centers the bio block */
+  font-size: 1em;
+  line-height: 1.6;          /* improves readability */
+  color: #333;               /* neutral text color */
+  text-align: justify;       /* professional alignment */
+}
+
+.title-section {
+  display: flex;
+  align-items: center;       /* aligns text block and photo vertically */
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;    /* stack PhD line above name */
+  justify-content: center;   /* vertically center relative to photo */
+}
+
+.degree {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.3rem;        /* small spacing between degree and name */
+}
+
+.profile-pic {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 1rem;
+  border: 3px solid #ffcc00;
+}

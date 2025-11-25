@@ -1,0 +1,29 @@
+---
+title: "AWARDS"
+---
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-trophy"></i> Research Grants and Fellowships
+
+- **Research Fellow (Borsa di Ricerca)**
+    * **Project:** PNRR P9-GRINS Growing Resilient.
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** August 2025 – Present.
+
+- **Research Grant (Co.co.co)**
+    * **Project:** PNRR-CHANGE (CHAllenges in National Governance of Environment).
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** August 2025 – Present.
+
+- **Postdoctoral Research Grant**
+    * **Project:** PRIN-LEXECON.
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** May 2024 – May 2025.
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-mortarboard"></i> Doctoral Scholarship
+
+- **Ph.D. in Economics and Policy Analysis of Markets and Firms**
+    * **Curriculum:** Statistical Methods.
+    * **Institution:** Department of Economics and Statistics, University of Salerno, Italy.
+    * **Duration:** October 2020 – January 2024.
