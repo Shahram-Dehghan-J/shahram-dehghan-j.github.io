@@ -23,6 +23,10 @@ title: "Publications"
 * **Amendola, A., Candila, V., Dehghan Jabarabadi, S., Winker, P.** (Submitted). A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications. *International Review of Financial Analysis*.
 	* [Journal Link: https://www.sciencedirect.com/journal/international-review-of-financial-analysis](https://www.sciencedirect.com/journal/international-review-of-financial-analysis)
 
+* **Candila, V., Dehghan Jabarabadi, S.** (Submitted). Evolution of Textual Analysis from Human to Machine Thinking: A PRISMA-ScR-Guided Systematic Mapping and Bibliometric Study (1957--2023). *Quality & Quantity*.
+	* [Journal Link: https://link.springer.com/journal/11135](https://link.springer.com/journal/11135)
+
+
 <div class="rule-gradient"></div>
 # <i class="bi bi-journal-text"></i> Working Papers (In Process)
 
