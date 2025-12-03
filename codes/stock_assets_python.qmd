@@ -1,0 +1,108 @@
+---
+title: "Stock Prices Data Fetch Using Python"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-summary: "Fetch the close prices of the stock market using the yahoo finance database"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-graph-up-arrow"></i> Stock Assets
+
+This document outlines the Python script used to fetch **historical data** for various financial assets using the `yfinance` library.
+
+## <i class="bi bi-boxes"></i> Setup and Imports
+
+This chunk imports the required Python libraries for data fetching and manipulation.
+
+```python
+import os
+import pandas as pd
+import yfinance as yf
+
+print("Libraries successfully imported.")
+
+# Change directory to the script's location (optional for online platforms)
+# os.chdir(os.path.dirname(os.path.abspath(__file__)))
+```
+
+## <i class="bi bi-gear-fill"></i> Define Parameters and Tickers
+
+This section sets the global time period for the data download and defines a list of financial tickers (symbols) to be retrieved.
+For the updated list of tickers (symbols) refers to [https://finance.yahoo.com/](Yahoo Finance) website.
+
+- st_date: Start date for the historical data query.
+- en_date: End date for the historical data query.
+- financial_tickers (List of symbols): A list of market assets for analysis.
+
+```python
+# Define the global time period
+st_date = '2013-01-02'
+en_date = '2024-08-19'
+
+# Define your parameters
+financial_tickers = [
+    '^IXIC',    # NASDAQ Composite Index (Stock Market Proxy - Stock Volatility)
+    'XOP',      # SPDR S&P Oil & Gas Exploration & Production ETF (Energy Sector Equity Volatility)
+    'NG=F',     # Natural Gas Futures
+    'GLD',      # SPDR Gold Shares ETF (Gold Volatility)
+    'EURUSD=X'  # Euro/USD Exchange Rate (Currency Volatility)
+]
+```
+
+## <i class="bi bi-graph-up-arrow"></i> Fetching Historical Data
+
+The yf.download() function is called to fetch the data. The settings specify daily (1d) data for the defined period.
+
+```python
+# Download the daily data
+data = yf.download(
+    financial_tickers,
+    start=st_date,
+    end=en_date,
+    interval='1d',
+    auto_adjust=False, # We use auto_adjust=False here to get all standard columns
+    progress=False
+)
+```
+
+## <i class="bi bi-tools"></i> Data Cleaning and Preparation
+This section processes the downloaded MultiIndex DataFrame to select only the closing prices and flatten the column structure, making it easier to work with.
+
+```python
+# Keep only the 'Close' prices and flatten the columns.
+if data.columns.nlevels > 1:
+    # Select only the 'Close' column level
+    data = data['Close']
+
+    # Drop the top level which is now redundant (it would just be 'Close')
+    if isinstance(data.columns, pd.MultiIndex):
+        data.columns = data.columns.droplevel(0)
+
+print("\n--- Data Information ---")
+data.info()
+```
+
+## <i class="bi bi-save"></i> Saving the Final Dataset (Optional)
+
+This final step notes where the data would typically be saved to the CSV file path (../data/stock_assets.csv).
+
+```python
+# Save the final DataFrame to a CSV file (assuming it's relative to the site's data directory)
+# data.to_csv('../data/stock_assets.csv')
+print("\nData successfully downloaded and processed.")
+
+```
+
+## <i class="bi bi-table"></i> Quick Data Preview
+
+A simple table showing the tail of the processed DataFrame.
+
+```python
+data.tail() # Show the last few rows
+```
+
+**End**
+<div class="rule-gradient"></div>

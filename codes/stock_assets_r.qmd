@@ -1,0 +1,125 @@
+---
+title: "Stock Prices Data Fetch Using R"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-summary: "Fetch the close prices of the stock market using the yahoo finance database"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-graph-up-arrow"></i> Stock Assets
+
+This document outlines the R script used to fetch **historical data** for various financial assets using the `quantmod` library.
+
+## <i class="bi bi-boxes"></i> Setup and Imports
+
+This chunk loads the required R libraries for data fetching and manipulation.
+
+```r
+library(quantmod) # For getSymbols() to download financial data
+library(xts)      # quantmod uses the xts (eXtensible Time Series) object
+library(dplyr)    # For data manipulation (optional, but good practice)
+
+print("Libraries successfully imported.")
+
+# Change directory 
+# setwd('~')
+```
+
+## <i class="bi bi-gear-fill"></i> Define Parameters and Tickers
+
+This section sets the global time period for the data download and defines a list of financial tickers (symbols) to be retrieved.
+For the updated list of tickers (symbols) refers to [https://finance.yahoo.com/](Yahoo Finance) website.
+
+- st_date: Start date for the historical data query.
+- en_date: End date for the historical data query.
+- financial_tickers (List of symbols): A list of market assets for analysis.
+
+```r
+# Define the global time period
+st_date = '2013-01-02'
+en_date = '2024-08-19'
+
+# Define your parameters
+financial_tickers <- c(
+    '^IXIC',     # NASDAQ Composite Index (Stock Market Proxy - Stock Volatility)
+    'XOP',       # SPDR S&P Oil & Gas Exploration & Production ETF (Energy Sector Equity Volatility)
+    'NG=F',      # Natural Gas Futures
+    'GLD',       # SPDR Gold Shares ETF (Gold Volatility)
+    'EURUSD=X'   # Euro/USD Exchange Rate (Currency Volatility)
+)
+```
+
+## <i class="bi bi-graph-up-arrow"></i> Fetching Historical Data
+
+The getSymbols() function is called to fetch the data. The settings specify daily (1d) data for the defined period.
+
+```r
+# Download the daily data
+# auto.assign = TRUE will create separate xts objects for each ticker.
+getSymbols(
+    Symbols = financial_tickers,
+    src = "yahoo",
+    from = st_date,
+    to = en_date,
+    auto.assign = TRUE,
+    progress = FALSE
+)
+```
+
+## <i class="bi bi-tools"></i> Data Cleaning and Preparation
+This section processes the downloaded MultiIndex DataFrame to select only the closing prices and flatten the column structure, making it easier to work with.
+
+```r
+# Combine the 'Close' prices into a single xts object.
+# Cl() is a helper function in quantmod to extract the Close column from an xts object.
+close_prices <- merge(
+    Cl(`IXIC`),
+    Cl(XOP),
+    Cl(`NG=F`),
+    Cl(GLD),
+    Cl(`EURUSD=X`)
+)
+
+# Clean up the column names to remove the ".Close" suffix
+# This is equivalent to flattening the multi-index to just the ticker name.
+colnames(close_prices) <- financial_tickers
+
+# Print Data Information and Last few rows
+print("\n--- Data Information ---")
+print(str(close_prices))
+```
+
+## <i class="bi bi-save"></i> Saving the Final Dataset (Optional)
+
+This final step notes where the data would typically be saved to the CSV file path (../data/stock_assets.csv).
+
+```r
+# Convert the xts object to a data.frame
+# The index (dates) becomes the row names, and the columns are the prices.
+df_prices <- as.data.frame(close_prices)
+
+# Create a new 'Date' column from the row names (which are the dates)
+df_prices$Date <- as.Date(row.names(df_prices))
+
+# Reorder the columns to put 'Date' first (optional, but good practice)
+df_prices <- df_prices[, c("Date", financial_tickers)]
+
+# --- Optional: Save to CSV ---
+write.csv(df_prices, file = '../data/stock_assets.csv', row.names = FALSE)
+
+```
+
+## <i class="bi bi-table"></i> Quick Data Preview
+
+A simple table showing the tail of the processed DataFrame.
+
+```r
+# Show the last few rows
+print(tail(close_prices))
+```
+
+**End**
+<div class="rule-gradient"></div>

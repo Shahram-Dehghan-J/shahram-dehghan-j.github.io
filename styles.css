@@ -196,11 +196,11 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.4rem 0.9rem;       /* rectangle size */
+  padding: 0.4rem 0.95rem;       /* rectangle size */
   background-color: #0055aa;    /* light blue fill */
   color: #fffcfc;
   font-size: 0.95em;
-  font-weight: 500;
+  font-weight: 800;
   text-decoration: none;
   gap: 0.4rem;
   border: none;                 /* no border around */
@@ -217,7 +217,6 @@ main {
   font-size: 1em;
   color: inherit;               /* icon matches text color */
 }
-
 
 /*
 --------------------------------------
@@ -242,7 +241,7 @@ main {
 }
 
 .bio {
-  max-width: 1000px;          /* keeps text readable */
+  max-width: 1100px;          /* keeps text readable */
   margin: 2rem auto;         /* centers the bio block */
   font-size: 1em;
   line-height: 1.6;          /* improves readability */
@@ -282,3 +281,18 @@ main {
   margin-left: 1rem;
   border: 3px solid #ffcc00;
 }
+
+/*
+--------------------------------------
+  7. lists
+--------------------------------------
+*/
+
+.list-icons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+

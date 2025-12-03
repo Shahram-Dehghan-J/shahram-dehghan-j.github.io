@@ -1,0 +1,17 @@
+---
+title: "CODES: Python"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-code-slash"></i> Python
+
+
+<div style="text-align: center;">
+
+# <span style="color: red;">🚧 **UNDER CONSTRUCTION** 🚧</span>
+
+> I'm currently updating this page. Please check back soon for the latest information.
+
+</div>
+

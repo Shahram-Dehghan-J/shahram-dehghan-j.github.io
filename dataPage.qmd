@@ -1,0 +1,34 @@
+---
+title: "CODES: Data"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-database"></i> Data
+
+The datasets used in my tutorials and projects across different programming languages are available here.  
+You can either **download them directly** (<i class="bi bi-file-earmark-arrow-down"></i>) for offline use, or access them through 
+**interactive codes** written in language programming (Python, <i class="bi bi-code-slash"></i> ; R, <i class="bi bi-bar-chart-line"></i>). 
+These codes employ packages to fetch data online, allowing you to reproduce results dynamically and explore updated datasets in real time.
+
+- <span class="list-icons">
+    <a href="/data/stock_assets.csv"><i class="bi bi-file-earmark-arrow-down"></i></a>
+    <a href="/codes/stock_assets_python.qmd"><i class="bi bi-code-slash"></i></a>
+    <a href="/codes/stock_assets_r.qmd"><i class="bi bi-bar-chart-line"></i></a>
+  </span> &nbsp; **Stock Prices**
+
+- <span class="list-icons">
+    <a href="/data/economic_indicators.csv"><i class="bi bi-file-earmark-arrow-down"></i></a>
+    <a href="/codes/economic_indicators_python.qmd"><i class="bi bi-code-slash"></i></a>
+    <a href="/codes/economic_indicators_r.qmd"><i class="bi bi-bar-chart-line"></i></a>
+  </span> &nbsp; **Economic Indicators**
+
+- <span class="list-icons">
+    <a href="/data/phys_org.csv"><i class="bi bi-file-earmark-arrow-down"></i></a>
+    <a href="/codes/phys_org_python.qmd"><i class="bi bi-code-slash"></i></a>
+    <i class="bi bi-bar-chart-line text-muted"></i>
+  </span> &nbsp; **Textual Dataset**  
+  
+  + *(Sample of text articles from Phys.org for Natural Language Processing (NLP) tutorials.)*
+
+

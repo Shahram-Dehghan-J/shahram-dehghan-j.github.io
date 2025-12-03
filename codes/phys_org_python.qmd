@@ -1,0 +1,27 @@
+---
+title: "Academic New Articles Scrapping Using Python"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-summary: "Fetch the academic new articles using the phys.org"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-graph-up-arrow"></i> Academic New Articles
+
+
+
+<div style="text-align: center;">
+
+# <span style="color: red;">🚧 **UNDER CONSTRUCTION** 🚧</span>
+
+> I'm currently updating this page. Please check back soon for the latest information.
+
+</div>
+
+
+
+**End**
+<div class="rule-gradient"></div>

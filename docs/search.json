@@ -7,18 +7,81 @@
     "text": "Teaching\nIntroduction to Statistics      Spring 2025  Master course  “Introduction of the fundamental concepts in Statistics and their Implementation in Python.”  Department of Economics and Management  University of Padova (Padova, Italy) \nIntermediate Econometrics      Fall 2023  Ph.D. Level  “Private course for PhD students: Application of R (theoretical and practical aspects) in economic studies.”  Department of Economics and Statistics  University of Salerno (Salerno, Italy) \nIntermediate Econometrics      Fall 2017  Master Level  “Introduction of the fundamental concepts in wavelet models over approximately 45 hours.”  Department of Economics  Razi University (Kermanshah, Iran)"
   },
   {
-    "objectID": "interests.html",
-    "href": "interests.html",
-    "title": "Interests",
+    "objectID": "pythonPage.html",
+    "href": "pythonPage.html",
+    "title": "CODES: Python",
     "section": "",
-    "text": "Textual Analysis and Natural Language Processing (NLP)\n\nApplying text-based methods to extract meaningful economic signals and indices:\n\nESG and Sustainability Indicators: Developing novel Environmental, Social, and Governance (ESG) metrics from textual data for evaluation and risk assessment (Core of PhD Thesis).\nConsistency Index of Authorship: Designing algorithms to detect and analyze the mindset embedded in economics textbooks, with applications to macroeconomic research (Work in progress).\nDictionary-Based Methods: Creating and refining categorized text-based dictionaries to capture central ideas, particularly in multilingual economic texts (PRIN-LEXECON project).\nSentiment Analysis and Topic Modeling: Leveraging sentiment extraction and topic modeling to support risk assessment and economic forecasting.\nData Scraping: Collecting and structuring unstructured data for analysis and model development.\n\n\n\n\n\n\n\nEconometrics and Time Series Analysis\n\nCapturing dynamics, risk, and volatility in economic and financial data.\n\nMacroeconomic Time Series: Modeling and forecasting macroeconomic variables, with attention to external drivers such as policy changes and commodity price fluctuations (Final chapter of PhD thesis).\nVolatility Analysis: Specializing in long-term volatility modeling using mixed-frequency data and advanced GARCH-type approaches (e.g., GARCH-MIDAS).\nRisk Management: Applying econometric methods to measure financial risk, including Value at Risk (VaR) and Expected Shortfall (ES).\nTime-Frequency Analysis: Employing Continuous Wavelet techniques (e.g., in combination with the Ornstein–Uhlenbeck process) to study time series across multiple scales.\n\n\n\n\n\n\n\nProgramming and Statistical Modeling\n\nLeveraging specialized software for data analysis, econometric modeling, and visualization:\n\nPython: Skilled in natural language processing (NLP), web scraping, and general data analysis.\nR: Extensive experience in econometrics, time series modeling, and risk management (VaR, ES, GARCH).\nMATLAB: Applied to specialized time-frequency analysis of economic and financial time series (Wavelets).\nLaTeX and Microsoft Office: Proficient in academic writing, technical documentation, and professional presentation."
+    "text": "Python\n\n\n🚧 UNDER CONSTRUCTION 🚧\n\nI’m currently updating this page. Please check back soon for the latest information."
   },
   {
-    "objectID": "educations.html",
-    "href": "educations.html",
-    "title": "Educations",
+    "objectID": "latexPage.html",
+    "href": "latexPage.html",
+    "title": "CODES: LaTeX",
     "section": "",
-    "text": "Postdoctorate and Research Fellowship\nResearch Fellow      August 2025 - Present  PNRR P9–GRINS Growing Resilient  Entitled: “Sustainable procurement and CO2 reduction.”  Department of Economics and Management  University of Padova (Padova, Italy) \nResearch Fellow      May 2025 - September 2025  PNRR–CHANGE  Entitled: “CHAllenges in National Governance of Environment.”  Department of Economics and Management  University of Padova (Padova, Italy) \nPostdoctoral Research Fellow      May 2024 - May 2025  PRIN–LEXECON  Entitled: “A transnational and diachronic study of treatises and textbooks of Economics. Intra- and interlingual corpus-driven and corpus-based analysis with a focus on lexicon and argumentation.”  Department of Economics and Management  University of Padova (Padova, Italy) \n\n\n\n\n\n Degrees\nDoctorate (Ph.D.)      October 2020 – July 2024  Economics and Policy Analysis of Markets and Firms (curriculum: Statistical Methods)  Thesis: “Essays on Financial Markets: Statistical Methods, Textual Analysis, and ESG Integration.”  Department of Economics and Statistics  University of Salerno (Salerno, Italy) \nMaster (M.A.)      September 2015 – May 2017  Economics (curriculum: Econometrics)  Thesis: “Examinations of Contagion in Financial markets in Iran Using a Combination of Ornstein Uhlenbeck Process and Wavelet Method.”  Department of Economics  Razi University (Kermanshah, Iran) \nBachelor (B.A.)      September 2008 – May 2012  Economics  Thesis: “Effect of financial Development and Trade Liberalization on Economic Growth.”  Department of Economics  Payame Noor University (Kermanshah, Iran) \nPre-University Degree      September 2005 - July 2006  Mathematics and Physics  General and intermediate theories of Mathematics and Physics  Ali Ebne Abitaleb Pre-university (Kermanshah, Iran) \nDiploma Degree      2002 - July 2005  Mathematics and Physics  General theories of Mathematics and Physics  Loghmane Hakim High school (Kermanshah, Iran) \n\n\n\n\n\n Visiting Research Programs\nVisiting Research Program (Ph.D.)      August 2022 – November 2022  Focus: Textual Analysis and Sustainability Topics.  Research entitled: “A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications.”  Department of Economics  Justus Liebig University Giessen (Giessen, Germany) \n\n\n\n\n\n Postgraduate Courses and Certifications\nFinancial Time Series and High-Frequency Econometrics      July 2023  Issued by: SIDE (Società Italiana di Econometria)  Perugia, Italy \nOxford Summer School in Economic Networks      June 2021  Issued by: Institute for New Economic Thinking at the Oxford Martin School (INET Oxford)  [vertual], UK \nSpatial Econometrics Advanced      June 2021  Issued by: Spatial Econometrics Association  [vertual], Italy"
+    "text": "LaTeX\n\n\n🚧 UNDER CONSTRUCTION 🚧\n\nI’m currently updating this page. Please check back soon for the latest information."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Postdoctoral Research Fellow (Ph.D.)\n\n\nShahram Dehghan Jabarabadi\n\n\n\n\n\n\n\nHe is a Research Fellow at the University of Padova, Italy. He is currently contributing on the PNRR P9-GRINS Growing Resilient project, entitled “Sustainable procurement and CO2 reduction,” and the PNRR-CHANGE project, entitled “CHAllenges in National Governance of Environment”. He specializes in econometrics, textual analysis, and quantitative economics. His academic background includes a Ph.D. in Economics (Statistical Methods) from the University of Salerno , where his thesis focused on methodological contributions related to ESG indicators, volatility modeling, and text-based approaches to financial markets. He also has completed an international visiting program to focus on Textual Analysis and Application of ESG index on the Financial Risk Management analysis in Department of Economics at the Justus Liebig University Giessen (Germany). His core research interests lie in Textual Analysis, Macroeconomics Time Series, and Risk Management. He leverages extensive programming expertise in Python, R, and MATLAB to combine time-series econometrics, natural language processing (NLP), and statistical modeling to study risk, sustainability, and the dynamics of economic systems.\n\n  Google Scholar    ORCID    Email    Academic Email    Resume"
+  },
+  {
+    "objectID": "dataPage.html",
+    "href": "dataPage.html",
+    "title": "CODES: Data",
+    "section": "",
+    "text": "Data\nThe datasets used in my tutorials and projects across different programming languages are available here.\nYou can either download them directly () for offline use, or access them through interactive codes written in language programming (Python,  ; R, ). These codes employ packages to fetch data online, allowing you to reproduce results dynamically and explore updated datasets in real time.\n\n       Stock Prices\n       Economic Indicators\n       Textual Dataset\n\n(Sample of text articles from Phys.org for Natural Language Processing (NLP) tutorials.)"
+  },
+  {
+    "objectID": "codes/stock_assets_python.html#setup-and-imports",
+    "href": "codes/stock_assets_python.html#setup-and-imports",
+    "title": "Stock Prices Data Fetch Using Python",
+    "section": " Setup and Imports",
+    "text": "Setup and Imports\nThis chunk imports the required Python libraries for data fetching and manipulation.\nimport os\nimport pandas as pd\nimport yfinance as yf\n\nprint(\"Libraries successfully imported.\")\n\n# Change directory to the script's location (optional for online platforms)\n# os.chdir(os.path.dirname(os.path.abspath(__file__)))"
+  },
+  {
+    "objectID": "codes/stock_assets_python.html#define-parameters-and-tickers",
+    "href": "codes/stock_assets_python.html#define-parameters-and-tickers",
+    "title": "Stock Prices Data Fetch Using Python",
+    "section": " Define Parameters and Tickers",
+    "text": "Define Parameters and Tickers\nThis section sets the global time period for the data download and defines a list of financial tickers (symbols) to be retrieved. For the updated list of tickers (symbols) refers to https://finance.yahoo.com/ website.\n\nst_date: Start date for the historical data query.\nen_date: End date for the historical data query.\nfinancial_tickers (List of symbols): A list of market assets for analysis.\n\n# Define the global time period\nst_date = '2013-01-02'\nen_date = '2024-08-19'\n\n# Define your parameters\nfinancial_tickers = [\n    '^IXIC',    # NASDAQ Composite Index (Stock Market Proxy - Stock Volatility)\n    'XOP',      # SPDR S&P Oil & Gas Exploration & Production ETF (Energy Sector Equity Volatility)\n    'NG=F',     # Natural Gas Futures\n    'GLD',      # SPDR Gold Shares ETF (Gold Volatility)\n    'EURUSD=X'  # Euro/USD Exchange Rate (Currency Volatility)\n]"
+  },
+  {
+    "objectID": "codes/stock_assets_python.html#fetching-historical-data",
+    "href": "codes/stock_assets_python.html#fetching-historical-data",
+    "title": "Stock Prices Data Fetch Using Python",
+    "section": " Fetching Historical Data",
+    "text": "Fetching Historical Data\nThe yf.download() function is called to fetch the data. The settings specify daily (1d) data for the defined period.\n# Download the daily data\ndata = yf.download(\n    financial_tickers,\n    start=st_date,\n    end=en_date,\n    interval='1d',\n    auto_adjust=False, # We use auto_adjust=False here to get all standard columns\n    progress=False\n)"
+  },
+  {
+    "objectID": "codes/stock_assets_python.html#data-cleaning-and-preparation",
+    "href": "codes/stock_assets_python.html#data-cleaning-and-preparation",
+    "title": "Stock Prices Data Fetch Using Python",
+    "section": " Data Cleaning and Preparation",
+    "text": "Data Cleaning and Preparation\nThis section processes the downloaded MultiIndex DataFrame to select only the closing prices and flatten the column structure, making it easier to work with.\n# Keep only the 'Close' prices and flatten the columns.\nif data.columns.nlevels &gt; 1:\n    # Select only the 'Close' column level\n    data = data['Close']\n\n    # Drop the top level which is now redundant (it would just be 'Close')\n    if isinstance(data.columns, pd.MultiIndex):\n        data.columns = data.columns.droplevel(0)\n\nprint(\"\\n--- Data Information ---\")\ndata.info()"
+  },
+  {
+    "objectID": "codes/stock_assets_python.html#saving-the-final-dataset-optional",
+    "href": "codes/stock_assets_python.html#saving-the-final-dataset-optional",
+    "title": "Stock Prices Data Fetch Using Python",
+    "section": " Saving the Final Dataset (Optional)",
+    "text": "Saving the Final Dataset (Optional)\nThis final step notes where the data would typically be saved to the CSV file path (../data/stock_assets.csv).\n# Save the final DataFrame to a CSV file (assuming it's relative to the site's data directory)\n# data.to_csv('../data/stock_assets.csv')\nprint(\"\\nData successfully downloaded and processed.\")"
+  },
+  {
+    "objectID": "codes/stock_assets_python.html#quick-data-preview",
+    "href": "codes/stock_assets_python.html#quick-data-preview",
+    "title": "Stock Prices Data Fetch Using Python",
+    "section": " Quick Data Preview",
+    "text": "Quick Data Preview\nA simple table showing the tail of the processed DataFrame.\ndata.tail() # Show the last few rows\nEnd"
+  },
+  {
+    "objectID": "codes/economic_indicators_r.html",
+    "href": "codes/economic_indicators_r.html",
+    "title": "Economics Indicator Data Fetch Using R",
+    "section": "",
+    "text": "Macroeconomics timeseries\n\n\n🚧 UNDER CONSTRUCTION 🚧\n\nI’m currently updating this page. Please check back soon for the latest information.\n\n\nEnd"
   },
   {
     "objectID": "awards.html",
@@ -35,18 +98,74 @@
     "text": "About this site\nHe is\n\nPHD\n\n\nPost doc\nHere is about"
   },
   {
-    "objectID": "codes.html",
-    "href": "codes.html",
-    "title": "PYTHON/R codes",
+    "objectID": "codes/economic_indicators_python.html",
+    "href": "codes/economic_indicators_python.html",
+    "title": "Economics Indicator Data Fetch Using Python",
     "section": "",
-    "text": "Under Construction"
+    "text": "Macroeconomics timeseries\n\n\n🚧 UNDER CONSTRUCTION 🚧\n\nI’m currently updating this page. Please check back soon for the latest information.\n\n\nEnd"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "codes/phys_org_python.html",
+    "href": "codes/phys_org_python.html",
+    "title": "Academic New Articles Scrapping Using Python",
     "section": "",
-    "text": "Postdoctoral Research Fellow (Ph.D.)\n\n\nShahram Dehghan Jabarabadi\n\n\n\n\n\n\n\nHe is a Research Fellow at the University of Padova, Italy. He is currently contributing on the PNRR P9-GRINS Growing Resilient project, entitled “Sustainable procurement and CO2 reduction,” and the PNRR-CHANGE project, entitled “CHAllenges in National Governance of Environment”. He specializes in econometrics, textual analysis, and quantitative economics. His academic background includes a Ph.D. in Economics (Statistical Methods) from the University of Salerno , where his thesis focused on methodological contributions related to ESG indicators, volatility modeling, and text-based approaches to financial markets. He also has completed an international visiting program to focus on Textual Analysis and Application of ESG index on the Financial Risk Management analysis in Department of Economics at the Justus Liebig University Giessen (Germany). His core research interests lie in Textual Analysis, Macroeconomics Time Series, and Risk Management. He leverages extensive programming expertise in Python, R, and MATLAB to combine time-series econometrics, natural language processing (NLP), and statistical modeling to study risk, sustainability, and the dynamics of economic systems.\n\n  Google Scholar    ORCID    Email    Academic Email    Resume"
+    "text": "Academic New Articles\n\n\n🚧 UNDER CONSTRUCTION 🚧\n\nI’m currently updating this page. Please check back soon for the latest information.\n\n\nEnd"
+  },
+  {
+    "objectID": "codes/stock_assets_r.html#setup-and-imports",
+    "href": "codes/stock_assets_r.html#setup-and-imports",
+    "title": "Stock Prices Data Fetch Using R",
+    "section": " Setup and Imports",
+    "text": "Setup and Imports\nThis chunk loads the required R libraries for data fetching and manipulation.\nlibrary(quantmod) # For getSymbols() to download financial data\nlibrary(xts)      # quantmod uses the xts (eXtensible Time Series) object\nlibrary(dplyr)    # For data manipulation (optional, but good practice)\n\nprint(\"Libraries successfully imported.\")\n\n# Change directory \n# setwd('~')"
+  },
+  {
+    "objectID": "codes/stock_assets_r.html#define-parameters-and-tickers",
+    "href": "codes/stock_assets_r.html#define-parameters-and-tickers",
+    "title": "Stock Prices Data Fetch Using R",
+    "section": " Define Parameters and Tickers",
+    "text": "Define Parameters and Tickers\nThis section sets the global time period for the data download and defines a list of financial tickers (symbols) to be retrieved. For the updated list of tickers (symbols) refers to https://finance.yahoo.com/ website.\n\nst_date: Start date for the historical data query.\nen_date: End date for the historical data query.\nfinancial_tickers (List of symbols): A list of market assets for analysis.\n\n# Define the global time period\nst_date = '2013-01-02'\nen_date = '2024-08-19'\n\n# Define your parameters\nfinancial_tickers &lt;- c(\n    '^IXIC',     # NASDAQ Composite Index (Stock Market Proxy - Stock Volatility)\n    'XOP',       # SPDR S&P Oil & Gas Exploration & Production ETF (Energy Sector Equity Volatility)\n    'NG=F',      # Natural Gas Futures\n    'GLD',       # SPDR Gold Shares ETF (Gold Volatility)\n    'EURUSD=X'   # Euro/USD Exchange Rate (Currency Volatility)\n)"
+  },
+  {
+    "objectID": "codes/stock_assets_r.html#fetching-historical-data",
+    "href": "codes/stock_assets_r.html#fetching-historical-data",
+    "title": "Stock Prices Data Fetch Using R",
+    "section": " Fetching Historical Data",
+    "text": "Fetching Historical Data\nThe getSymbols() function is called to fetch the data. The settings specify daily (1d) data for the defined period.\n# Download the daily data\n# auto.assign = TRUE will create separate xts objects for each ticker.\ngetSymbols(\n    Symbols = financial_tickers,\n    src = \"yahoo\",\n    from = st_date,\n    to = en_date,\n    auto.assign = TRUE,\n    progress = FALSE\n)"
+  },
+  {
+    "objectID": "codes/stock_assets_r.html#data-cleaning-and-preparation",
+    "href": "codes/stock_assets_r.html#data-cleaning-and-preparation",
+    "title": "Stock Prices Data Fetch Using R",
+    "section": " Data Cleaning and Preparation",
+    "text": "Data Cleaning and Preparation\nThis section processes the downloaded MultiIndex DataFrame to select only the closing prices and flatten the column structure, making it easier to work with.\n# Combine the 'Close' prices into a single xts object.\n# Cl() is a helper function in quantmod to extract the Close column from an xts object.\nclose_prices &lt;- merge(\n    Cl(`IXIC`),\n    Cl(XOP),\n    Cl(`NG=F`),\n    Cl(GLD),\n    Cl(`EURUSD=X`)\n)\n\n# Clean up the column names to remove the \".Close\" suffix\n# This is equivalent to flattening the multi-index to just the ticker name.\ncolnames(close_prices) &lt;- financial_tickers\n\n# Print Data Information and Last few rows\nprint(\"\\n--- Data Information ---\")\nprint(str(close_prices))"
+  },
+  {
+    "objectID": "codes/stock_assets_r.html#saving-the-final-dataset-optional",
+    "href": "codes/stock_assets_r.html#saving-the-final-dataset-optional",
+    "title": "Stock Prices Data Fetch Using R",
+    "section": " Saving the Final Dataset (Optional)",
+    "text": "Saving the Final Dataset (Optional)\nThis final step notes where the data would typically be saved to the CSV file path (../data/stock_assets.csv).\n# Convert the xts object to a data.frame\n# The index (dates) becomes the row names, and the columns are the prices.\ndf_prices &lt;- as.data.frame(close_prices)\n\n# Create a new 'Date' column from the row names (which are the dates)\ndf_prices$Date &lt;- as.Date(row.names(df_prices))\n\n# Reorder the columns to put 'Date' first (optional, but good practice)\ndf_prices &lt;- df_prices[, c(\"Date\", financial_tickers)]\n\n# --- Optional: Save to CSV ---\nwrite.csv(df_prices, file = '../data/stock_assets.csv', row.names = FALSE)"
+  },
+  {
+    "objectID": "codes/stock_assets_r.html#quick-data-preview",
+    "href": "codes/stock_assets_r.html#quick-data-preview",
+    "title": "Stock Prices Data Fetch Using R",
+    "section": " Quick Data Preview",
+    "text": "Quick Data Preview\nA simple table showing the tail of the processed DataFrame.\n# Show the last few rows\nprint(tail(close_prices))\nEnd"
+  },
+  {
+    "objectID": "educations.html",
+    "href": "educations.html",
+    "title": "Educations",
+    "section": "",
+    "text": "Postdoctorate and Research Fellowship\nResearch Fellow      August 2025 - Present  PNRR P9–GRINS Growing Resilient  Entitled: “Sustainable procurement and CO2 reduction.”  Department of Economics and Management  University of Padova (Padova, Italy) \nResearch Fellow      May 2025 - September 2025  PNRR–CHANGE  Entitled: “CHAllenges in National Governance of Environment.”  Department of Economics and Management  University of Padova (Padova, Italy) \nPostdoctoral Research Fellow      May 2024 - May 2025  PRIN–LEXECON  Entitled: “A transnational and diachronic study of treatises and textbooks of Economics. Intra- and interlingual corpus-driven and corpus-based analysis with a focus on lexicon and argumentation.”  Department of Economics and Management  University of Padova (Padova, Italy) \n\n\n\n\n\n Degrees\nDoctorate (Ph.D.)      October 2020 – July 2024  Economics and Policy Analysis of Markets and Firms (curriculum: Statistical Methods)  Thesis: “Essays on Financial Markets: Statistical Methods, Textual Analysis, and ESG Integration.”  Department of Economics and Statistics  University of Salerno (Salerno, Italy) \nMaster (M.A.)      September 2015 – May 2017  Economics (curriculum: Econometrics)  Thesis: “Examinations of Contagion in Financial markets in Iran Using a Combination of Ornstein Uhlenbeck Process and Wavelet Method.”  Department of Economics  Razi University (Kermanshah, Iran) \nBachelor (B.A.)      September 2008 – May 2012  Economics  Thesis: “Effect of financial Development and Trade Liberalization on Economic Growth.”  Department of Economics  Payame Noor University (Kermanshah, Iran) \nPre-University Degree      September 2005 - July 2006  Mathematics and Physics  General and intermediate theories of Mathematics and Physics  Ali Ebne Abitaleb Pre-university (Kermanshah, Iran) \nDiploma Degree      2002 - July 2005  Mathematics and Physics  General theories of Mathematics and Physics  Loghmane Hakim High school (Kermanshah, Iran) \n\n\n\n\n\n Visiting Research Programs\nVisiting Research Program (Ph.D.)      August 2022 – November 2022  Focus: Textual Analysis and Sustainability Topics.  Research entitled: “A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications.”  Department of Economics  Justus Liebig University Giessen (Giessen, Germany) \n\n\n\n\n\n Postgraduate Courses and Certifications\nFinancial Time Series and High-Frequency Econometrics      July 2023  Issued by: SIDE (Società Italiana di Econometria)  Perugia, Italy \nOxford Summer School in Economic Networks      June 2021  Issued by: Institute for New Economic Thinking at the Oxford Martin School (INET Oxford)  [vertual], UK \nSpatial Econometrics Advanced      June 2021  Issued by: Spatial Econometrics Association  [vertual], Italy"
+  },
+  {
+    "objectID": "interests.html",
+    "href": "interests.html",
+    "title": "Interests",
+    "section": "",
+    "text": "Textual Analysis and Natural Language Processing (NLP)\n\nApplying text-based methods to extract meaningful economic signals and indices:\n\nESG and Sustainability Indicators: Developing novel Environmental, Social, and Governance (ESG) metrics from textual data for evaluation and risk assessment (Core of PhD Thesis).\nConsistency Index of Authorship: Designing algorithms to detect and analyze the mindset embedded in economics textbooks, with applications to macroeconomic research (Work in progress).\nDictionary-Based Methods: Creating and refining categorized text-based dictionaries to capture central ideas, particularly in multilingual economic texts (PRIN-LEXECON project).\nSentiment Analysis and Topic Modeling: Leveraging sentiment extraction and topic modeling to support risk assessment and economic forecasting.\nData Scraping: Collecting and structuring unstructured data for analysis and model development.\n\n\n\n\n\n\n\nEconometrics and Time Series Analysis\n\nCapturing dynamics, risk, and volatility in economic and financial data.\n\nMacroeconomic Time Series: Modeling and forecasting macroeconomic variables, with attention to external drivers such as policy changes and commodity price fluctuations (Final chapter of PhD thesis).\nVolatility Analysis: Specializing in long-term volatility modeling using mixed-frequency data and advanced GARCH-type approaches (e.g., GARCH-MIDAS).\nRisk Management: Applying econometric methods to measure financial risk, including Value at Risk (VaR) and Expected Shortfall (ES).\nTime-Frequency Analysis: Employing Continuous Wavelet techniques (e.g., in combination with the Ornstein–Uhlenbeck process) to study time series across multiple scales.\n\n\n\n\n\n\n\nProgramming and Statistical Modeling\n\nLeveraging specialized software for data analysis, econometric modeling, and visualization:\n\nPython: Skilled in natural language processing (NLP), web scraping, and general data analysis.\nR: Extensive experience in econometrics, time series modeling, and risk management (VaR, ES, GARCH).\nMATLAB: Applied to specialized time-frequency analysis of economic and financial time series (Wavelets).\nLaTeX and Microsoft Office: Proficient in academic writing, technical documentation, and professional presentation."
   },
   {
     "objectID": "publications.html",
@@ -54,5 +173,12 @@
     "title": "Publications",
     "section": "",
     "text": "Published\n\nAlam, MS., Amendola, A., Candila, V., Dehghan Jabarabadi, S. (2024). Is Monetary Policy a Driver of Cryptocurrencies? Evidence from a Structural Break GARCH-MIDAS Approach. Econometrics. doi/url: https://doi.org/10.3390/econometrics12010002\nFattahi, S., Soheili, K., Dehghan Jabarabadi, S. (2018). Oil Price, Financial Markets Index and Inflation in Iran’s Economy. International Journal of Management and Applied Science (IJMAS). doi/url: https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574\nKarimi, MS., Hadarian, M., Dehghan Jabarabadi, S. (2018). Analysis of Spillover Effects between Oil and Stock Market during Multi-Scales, Using GARCH-BEKK model. Financial Economics (IAUCTB). doi/url: https://journals.iau.ir/article_543455.html?lang=en\nFattahi, S., Soheili, K., Dehghan Jabarabadi, S. (2018). Examination of Contagion in Financial Markets in Iran using a Combination of Ornstein Uhlenbeck process and Wavelet Method. Journal of Econometric Modeling (Semnan University). doi/url: https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090\n\n\n\n\n\n\n Submitted\n\nDehghan Jabarabadi, S., Alam, MS., Shafiullah, M. (Submitted). The Role of Planned and Unexpected Events on Financial Markets. Financial Innovation.\n\nJournal Link: https://jfin-swufe.springeropen.com/\n\nAmendola, A., Candila, V., Dehghan Jabarabadi, S., Winker, P. (Submitted). A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications. International Review of Financial Analysis.\n\nJournal Link: https://www.sciencedirect.com/journal/international-review-of-financial-analysis\n\nCandila, V., Dehghan Jabarabadi, S. (Submitted). Evolution of Textual Analysis from Human to Machine Thinking: A PRISMA-ScR-Guided Systematic Mapping and Bibliometric Study (1957–2023). Quality & Quantity.\n\nJournal Link: https://link.springer.com/journal/11135\n\n\n\n\n\n\n\n Working Papers (In Process)\n\nDehghan Jabarabadi, Sh., Tusset, G. Mapping Central Idea of Corpus by Categorized Dictionaries from Corpus: Analyzing Economic Schools of Thought.\nTusset, G., Dehghan Jabarabadi, Sh. When a Textbook Makes a Difference: Lexical Segmentation in Economics Textbooks and Long-Run Macroeconomic Performance.\nDal Monico, S., Dehghan Jabarabadi, Sh., Lancia, F., Russo, A., Werth, J. Propose a text-based “Depth” Measurement in International Environmental Agreements."
+  },
+  {
+    "objectID": "rPage.html",
+    "href": "rPage.html",
+    "title": "CODES: R",
+    "section": "",
+    "text": "R\n\n\n🚧 UNDER CONSTRUCTION 🚧\n\nI’m currently updating this page. Please check back soon for the latest information."
   }
 ]

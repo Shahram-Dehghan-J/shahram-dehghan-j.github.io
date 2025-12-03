@@ -22,5 +22,50 @@
   },
   "teaches.qmd": {
     "teaches.html": "c7e35554"
+  },
+  "CODES/DATA/dataPage.qmd": {
+    "dataPage.html": "2601fb45"
+  },
+  "CODES/LATEX/latexPage.qmd": {
+    "latexPage.html": "84ab0373"
+  },
+  "CODES/PYTHON/pythonPage.qmd": {
+    "pythonPage.html": "bf2fe5e5"
+  },
+  "CODES/R/rPage.qmd": {
+    "rPage.html": "2c4edf4f"
+  },
+  "dataPage.qmd": {
+    "dataPage.html": "ef31d013"
+  },
+  "latexPage.qmd": {
+    "latexPage.html": "b7e87e84"
+  },
+  "pythonPage.qmd": {
+    "pythonPage.html": "ef46ad63"
+  },
+  "rPage.qmd": {
+    "rPage.html": "29e08648"
+  },
+  "codes/stock_assets.qmd": {
+    "stock_assets.html": "f6f8088c"
+  },
+  "docs/codes/stock_assets.qmd": {
+    "stock_assets.html": "4aa3c547"
+  },
+  "codes/stock_assets_python.qmd": {
+    "stock_assets_python.html": "c5d5e5ce"
+  },
+  "codes/stock_assets_r.qmd": {
+    "stock_assets_r.html": "e48a554c"
+  },
+  "codes/economic_indicators_python.qmd": {
+    "economic_indicators_python.html": "b8526c65"
+  },
+  "codes/economic_indicators_r.qmd": {
+    "economic_indicators_r.html": "a19a6e19"
+  },
+  "codes/phys_org_python.qmd": {
+    "phys_org_python.html": "e155d044"
   }
 }

@@ -23,12 +23,20 @@ website:
       - text: 'Awards'
         href: awards.qmd
       - text: 'CODES'
-        href: codes.qmd
+        menu:
+          - text: "Data"
+            href: dataPage.qmd
+          - text: "Python"
+            href: pythonPage.qmd
+          - text: "R"
+            href: rPage.qmd
+          - text: "LaTeX"
+            href: latexPage.qmd
     
     right:
       - icon: mortarboard
         href: https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&hl=it&oi=ao
-      - text: '<img src="ORCID_iD_icon.svg" alt="ORCID" style="height:20px; vertical-align:middle;">'
+      - text: '<img src="/ORCID_iD_icon.svg" alt="ORCID" style="height:20px; vertical-align:middle;">'
         href: https://orcid.org/0009-0008-4627-7554
       - icon: linkedin
         href: https://www.linkedin.com/in/shahram-dehghan-jabarabadi
@@ -38,14 +46,14 @@ website:
   sidebar:
     style: "docked"
     contents:
-        - text: "<img src='websiteIMG.jpg' style='border-radius:50%/50%;width:220px;height:220px;'>"
+        - text: "<img src='/websiteIMG.jpg' style='border-radius:50%/50%;width:220px;height:220px;'>"
         - text: "<strong>Ph.D.</strong>"
         - text: "<strong>Shahram Dehghan Jabarabadi</strong>"
         - text: "Postdoctoral Research Fellow"
         - text: "University of Padua <a href='https://www.economia.unipd.it/'>(dSEA)</a>"
         - text: "<i class='bi bi-book me-2'></i>Research Interests:<br><br><span class='ms-5'>Econometrics</span><br><span class='ms-5'>Textual Analysis</span><br><span class='ms-5'>Risk Management</span><br><span class='ms-5'>TimeSeries</span><br><span class='ms-5'>Volatility Analysis</span><br><span class='ms-5'>Python/R</span><br><br>"
         - text: "<i class='bi bi-mortarboard me-2'></i> <a href='https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&hl=it&oi=ao'>Google Scholar</a>"
-        - text: "<img src='ORCID_iD_icon.svg' alt='ORCID' style='height:20px; vertical-align:middle; margin-right:6px;'> <a href='https://orcid.org/0009-0008-4627-7554'>ORCID</a>"
+        - text: "<img src='/ORCID_iD_icon.svg' alt='ORCID' style='height:20px; vertical-align:middle; margin-right:6px;'> <a href='https://orcid.org/0009-0008-4627-7554'>ORCID</a>"
         - text: "<i class='bi bi-envelope me-2'></i> <a href='mailto:shahram.deghan.j@icloud.com'>shahram.dehghan.j</a>"
 
 

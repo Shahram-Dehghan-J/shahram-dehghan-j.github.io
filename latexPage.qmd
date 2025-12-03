@@ -1,0 +1,16 @@
+---
+title: "CODES: LaTeX"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-file-earmark-text"></i> LaTeX
+
+
+<div style="text-align: center;">
+
+# <span style="color: red;">🚧 **UNDER CONSTRUCTION** 🚧</span>
+
+> I'm currently updating this page. Please check back soon for the latest information.
+
+</div>

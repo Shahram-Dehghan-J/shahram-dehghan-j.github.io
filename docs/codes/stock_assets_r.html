@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PYTHON/R codes – Shahram Dehghan jabarabadi | Postdoc &amp; Expert in Econometrics and Textual Analysis</title>
+<title>Stock Prices Data Fetch Using R – Shahram Dehghan jabarabadi | Postdoc &amp; Expert in Econometrics and Textual Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9eb9aa7cc302b02dcdb61e96209a5416.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9eb9aa7cc302b02dcdb61e96209a5416.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +109,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,43 +125,62 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./interests.html"> 
+    <a class="nav-link" href="../interests.html"> 
 <span class="menu-text">Interests</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./educations.html"> 
+    <a class="nav-link" href="../educations.html"> 
 <span class="menu-text">Educations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaches.html"> 
+    <a class="nav-link" href="../teaches.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./awards.html"> 
+    <a class="nav-link" href="../awards.html"> 
 <span class="menu-text">Awards</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./codes.html" aria-current="page"> 
-<span class="menu-text">CODES</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-codes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">CODES</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-codes">    
+        <li>
+    <a class="dropdown-item" href="../dataPage.html">
+ <span class="dropdown-text">Data</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../pythonPage.html">
+ <span class="dropdown-text">Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../rPage.html">
+ <span class="dropdown-text">R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../latexPage.html">
+ <span class="dropdown-text">LaTeX</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&amp;hl=it&amp;oi=ao"> <i class="bi bi-mortarboard" role="img">
+    <a class="nav-link active" href="https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&amp;hl=it&amp;oi=ao" aria-current="page"> <i class="bi bi-mortarboard" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://orcid.org/0009-0008-4627-7554"> 
-<span class="menu-text"><img src="ORCID_iD_icon.svg" alt="ORCID" style="height:20px; vertical-align:middle;"></span></a>
+<span class="menu-text"><img src="../ORCID_iD_icon.svg" alt="ORCID" style="height:20px; vertical-align:middle;"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/shahram-dehghan-jabarabadi"> <i class="bi bi-linkedin" role="img">
@@ -149,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">PYTHON/R codes</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Stock Prices Data Fetch Using R</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -162,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
- <span class="menu-text"><img src="websiteIMG.jpg" style="border-radius:50%/50%;width:220px;height:220px;"></span>
+ <span class="menu-text"><img src="../websiteIMG.jpg" style="border-radius:50%/50%;width:220px;height:220px;"></span>
   </li>
         <li class="sidebar-item">
  <span class="menu-text"><strong>Ph.D.</strong></span>
@@ -183,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><i class="bi bi-mortarboard me-2"></i> <a href="https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&amp;hl=it&amp;oi=ao">Google Scholar</a></span>
   </li>
         <li class="sidebar-item">
- <span class="menu-text"><img src="ORCID_iD_icon.svg" alt="ORCID" style="height:20px; vertical-align:middle; margin-right:6px;"> <a href="https://orcid.org/0009-0008-4627-7554">ORCID</a></span>
+ <span class="menu-text"><img src="../ORCID_iD_icon.svg" alt="ORCID" style="height:20px; vertical-align:middle; margin-right:6px;"> <a href="https://orcid.org/0009-0008-4627-7554">ORCID</a></span>
   </li>
         <li class="sidebar-item">
  <span class="menu-text"><i class="bi bi-envelope me-2"></i> <a href="mailto:shahram.deghan.j@icloud.com">shahram.dehghan.j</a></span>
@@ -193,13 +247,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#stock-assets" id="toc-stock-assets" class="nav-link active" data-scroll-target="#stock-assets"><i class="bi bi-graph-up-arrow"></i> Stock Assets</a>
+  <ul class="collapse">
+  <li><a href="#setup-and-imports" id="toc-setup-and-imports" class="nav-link" data-scroll-target="#setup-and-imports"><i class="bi bi-boxes"></i> Setup and Imports</a></li>
+  <li><a href="#define-parameters-and-tickers" id="toc-define-parameters-and-tickers" class="nav-link" data-scroll-target="#define-parameters-and-tickers"><i class="bi bi-gear-fill"></i> Define Parameters and Tickers</a></li>
+  <li><a href="#fetching-historical-data" id="toc-fetching-historical-data" class="nav-link" data-scroll-target="#fetching-historical-data"><i class="bi bi-graph-up-arrow"></i> Fetching Historical Data</a></li>
+  <li><a href="#data-cleaning-and-preparation" id="toc-data-cleaning-and-preparation" class="nav-link" data-scroll-target="#data-cleaning-and-preparation"><i class="bi bi-tools"></i> Data Cleaning and Preparation</a></li>
+  <li><a href="#saving-the-final-dataset-optional" id="toc-saving-the-final-dataset-optional" class="nav-link" data-scroll-target="#saving-the-final-dataset-optional"><i class="bi bi-save"></i> Saving the Final Dataset (Optional)</a></li>
+  <li><a href="#quick-data-preview" id="toc-quick-data-preview" class="nav-link" data-scroll-target="#quick-data-preview"><i class="bi bi-table"></i> Quick Data Preview</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PYTHON/R codes</h1>
+<h1 class="title">Stock Prices Data Fetch Using R</h1>
 </div>
 
 
@@ -216,9 +286,109 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Under Construction</strong></p>
+<div class="rule-gradient">
+
+</div>
+<section id="stock-assets" class="level1">
+<h1><i class="bi bi-graph-up-arrow"></i> Stock Assets</h1>
+<p>This document outlines the R script used to fetch <strong>historical data</strong> for various financial assets using the <code>quantmod</code> library.</p>
+<section id="setup-and-imports" class="level2">
+<h2 class="anchored" data-anchor-id="setup-and-imports"><i class="bi bi-boxes"></i> Setup and Imports</h2>
+<p>This chunk loads the required R libraries for data fetching and manipulation.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quantmod) <span class="co"># For getSymbols() to download financial data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(xts)      <span class="co"># quantmod uses the xts (eXtensible Time Series) object</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)    <span class="co"># For data manipulation (optional, but good practice)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Libraries successfully imported."</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Change directory </span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># setwd('~')</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="define-parameters-and-tickers" class="level2">
+<h2 class="anchored" data-anchor-id="define-parameters-and-tickers"><i class="bi bi-gear-fill"></i> Define Parameters and Tickers</h2>
+<p>This section sets the global time period for the data download and defines a list of financial tickers (symbols) to be retrieved. For the updated list of tickers (symbols) refers to <a href="Yahoo Finance">https://finance.yahoo.com/</a> website.</p>
+<ul>
+<li>st_date: Start date for the historical data query.</li>
+<li>en_date: End date for the historical data query.</li>
+<li>financial_tickers (List of symbols): A list of market assets for analysis.</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the global time period</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>st_date <span class="ot">=</span> <span class="st">'2013-01-02'</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>en_date <span class="ot">=</span> <span class="st">'2024-08-19'</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Define your parameters</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>financial_tickers <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'^IXIC'</span>,     <span class="co"># NASDAQ Composite Index (Stock Market Proxy - Stock Volatility)</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'XOP'</span>,       <span class="co"># SPDR S&amp;P Oil &amp; Gas Exploration &amp; Production ETF (Energy Sector Equity Volatility)</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'NG=F'</span>,      <span class="co"># Natural Gas Futures</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">'GLD'</span>,       <span class="co"># SPDR Gold Shares ETF (Gold Volatility)</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">'EURUSD=X'</span>   <span class="co"># Euro/USD Exchange Rate (Currency Volatility)</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="fetching-historical-data" class="level2">
+<h2 class="anchored" data-anchor-id="fetching-historical-data"><i class="bi bi-graph-up-arrow"></i> Fetching Historical Data</h2>
+<p>The getSymbols() function is called to fetch the data. The settings specify daily (1d) data for the defined period.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Download the daily data</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># auto.assign = TRUE will create separate xts objects for each ticker.</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">getSymbols</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">Symbols =</span> financial_tickers,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">src =</span> <span class="st">"yahoo"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">from =</span> st_date,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">to =</span> en_date,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">auto.assign =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">progress =</span> <span class="cn">FALSE</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="data-cleaning-and-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="data-cleaning-and-preparation"><i class="bi bi-tools"></i> Data Cleaning and Preparation</h2>
+<p>This section processes the downloaded MultiIndex DataFrame to select only the closing prices and flatten the column structure, making it easier to work with.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the 'Close' prices into a single xts object.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Cl() is a helper function in quantmod to extract the Close column from an xts object.</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>close_prices <span class="ot">&lt;-</span> <span class="fu">merge</span>(</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">Cl</span>(<span class="st">`</span><span class="at">IXIC</span><span class="st">`</span>),</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">Cl</span>(XOP),</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">Cl</span>(<span class="st">`</span><span class="at">NG=F</span><span class="st">`</span>),</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">Cl</span>(GLD),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">Cl</span>(<span class="st">`</span><span class="at">EURUSD=X</span><span class="st">`</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean up the column names to remove the ".Close" suffix</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># This is equivalent to flattening the multi-index to just the ticker name.</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(close_prices) <span class="ot">&lt;-</span> financial_tickers</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Print Data Information and Last few rows</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"</span><span class="sc">\n</span><span class="st">--- Data Information ---"</span>)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">str</span>(close_prices))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="saving-the-final-dataset-optional" class="level2">
+<h2 class="anchored" data-anchor-id="saving-the-final-dataset-optional"><i class="bi bi-save"></i> Saving the Final Dataset (Optional)</h2>
+<p>This final step notes where the data would typically be saved to the CSV file path (../data/stock_assets.csv).</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the xts object to a data.frame</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># The index (dates) becomes the row names, and the columns are the prices.</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>df_prices <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(close_prices)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a new 'Date' column from the row names (which are the dates)</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>df_prices<span class="sc">$</span>Date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(<span class="fu">row.names</span>(df_prices))</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Reorder the columns to put 'Date' first (optional, but good practice)</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>df_prices <span class="ot">&lt;-</span> df_prices[, <span class="fu">c</span>(<span class="st">"Date"</span>, financial_tickers)]</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Optional: Save to CSV ---</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(df_prices, <span class="at">file =</span> <span class="st">'../data/stock_assets.csv'</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="quick-data-preview" class="level2">
+<h2 class="anchored" data-anchor-id="quick-data-preview"><i class="bi bi-table"></i> Quick Data Preview</h2>
+<p>A simple table showing the tail of the processed DataFrame.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the last few rows</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">tail</span>(close_prices))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<strong>End</strong>
+<div class="rule-gradient">
+
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
