@@ -70,6 +70,7 @@ format:
     theme: journal
     css: styles.css
     html-meta:
+      google-site-verification: "googlea001f7a2c08a32a0"
       description: "Personal academic website of Shahram Dehghan Jabarabadi, Postdoctoral Research Fellow at the University of Padua. Specializing in Econometrics, Textual Analysis, and Quantitative Finance with expertise in Time Series, Risk Management (VaR/ES/GARCH), and NLP (Sentiment/Topic Modeling). Research focuses on volatility, ESG indicators, and text-based analysis of economic systems."
       keywords: "Shahram Dehghan Jabarabadi, Shahram Dehghan, Shahram, Dehghan, Jabarabadi, Economics, Econometrics, Textual Analysis, Quantitative Finance, Time Series Analysis, Risk Management, Natural Language Processing, NLP, Statistical Methods, GARCH, VaR, ES, ESG Integration, Volatility Analysis, Python, R,  University of Salerno, University of Padua, Postdoctoral Fellow, Research, Ph.D., Docotrate, Dr."
     include-in-header:
