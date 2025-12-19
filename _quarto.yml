@@ -3,9 +3,14 @@ project:
   type: website
   output-dir: docs 
   title: "Shahram Dehghan jabarabadi | Postdoc & Expert in Econometrics and Textual Analysis"
+  resources:
+    - "googlea001f7a2c08a32a0.html"
+    - "robots.txt"
 
 
 website:
+  
+  site-url: "https://shahram-dehghan-j.github.io/"
   
   navbar:
     title: false   # hides the title from the navbar
