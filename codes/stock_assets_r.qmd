@@ -11,6 +11,16 @@ format:
 
 # <i class="bi bi-graph-up-arrow"></i> Stock Assets
 
+::: {.callout-note appearance="simple"}
+## <i class="bi bi-info-circle"></i> Environment & Versions
+This script was developed and tested using the following software versions:
+
+* **R:** 4.5.1
+* **quantmod:** 0.4.28
+* **xts:** 0.14.1
+* **dplyr:** 1.1.4
+:::
+
 This document outlines the R script used to fetch **historical data** for various financial assets using the `quantmod` library.
 
 ## <i class="bi bi-boxes"></i> Setup and Imports

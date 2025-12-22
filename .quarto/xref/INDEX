@@ -67,5 +67,53 @@
   },
   "codes/phys_org_python.qmd": {
     "phys_org_python.html": "e155d044"
+  },
+  "docs/shahram-dehghan-j.github.io/about.qmd": {
+    "about.html": "aed50e87"
+  },
+  "docs/shahram-dehghan-j.github.io/awards.qmd": {
+    "awards.html": "b433d41e"
+  },
+  "docs/shahram-dehghan-j.github.io/codes/economic_indicators_python.qmd": {
+    "economic_indicators_python.html": "ebcef500"
+  },
+  "docs/shahram-dehghan-j.github.io/codes/economic_indicators_r.qmd": {
+    "economic_indicators_r.html": "51fb006f"
+  },
+  "docs/shahram-dehghan-j.github.io/codes/phys_org_python.qmd": {
+    "phys_org_python.html": "2f5db2fc"
+  },
+  "docs/shahram-dehghan-j.github.io/codes/stock_assets_python.qmd": {
+    "stock_assets_python.html": "e5815f5f"
+  },
+  "docs/shahram-dehghan-j.github.io/codes/stock_assets_r.qmd": {
+    "stock_assets_r.html": "ef59df65"
+  },
+  "docs/shahram-dehghan-j.github.io/dataPage.qmd": {
+    "dataPage.html": "1c991c94"
+  },
+  "docs/shahram-dehghan-j.github.io/educations.qmd": {
+    "educations.html": "3f9f1cf3"
+  },
+  "docs/shahram-dehghan-j.github.io/index.qmd": {
+    "index.html": "74989793"
+  },
+  "docs/shahram-dehghan-j.github.io/interests.qmd": {
+    "interests.html": "66a90193"
+  },
+  "docs/shahram-dehghan-j.github.io/latexPage.qmd": {
+    "latexPage.html": "6a047a7a"
+  },
+  "docs/shahram-dehghan-j.github.io/publications.qmd": {
+    "publications.html": "7fe8d98e"
+  },
+  "docs/shahram-dehghan-j.github.io/pythonPage.qmd": {
+    "pythonPage.html": "e0935df6"
+  },
+  "docs/shahram-dehghan-j.github.io/rPage.qmd": {
+    "rPage.html": "60a2bc92"
+  },
+  "docs/shahram-dehghan-j.github.io/teaches.qmd": {
+    "teaches.html": "b9f537f7"
   }
 }

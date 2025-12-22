@@ -11,6 +11,15 @@ format:
 
 # <i class="bi bi-graph-up-arrow"></i> Stock Assets
 
+::: {.callout-note appearance="simple"}
+## <i class="bi bi-info-circle"></i> Environment & Versions
+This script was developed and tested using the following software versions:
+
+* **Python:** 3.11.9 
+* **yfinance:** 0.2.66 
+* **pandas:** 2.3.1
+:::
+
 This document outlines the Python script used to fetch **historical data** for various financial assets using the `yfinance` library.
 
 ## <i class="bi bi-boxes"></i> Setup and Imports
@@ -103,6 +112,7 @@ A simple table showing the tail of the processed DataFrame.
 ```python
 data.tail() # Show the last few rows
 ```
+
 
 **End**
 <div class="rule-gradient"></div>

@@ -6,11 +6,12 @@ project:
   resources:
     - "googlea001f7a2c08a32a0.html"
     - "robots.txt"
+    - "sitemap.xml" 
 
 
 website:
   
-  site-url: "https://shahram-dehghan-j.github.io/"
+  site-url: "https://shahram-dehghan-j.github.io"
   
   navbar:
     title: false   # hides the title from the navbar
