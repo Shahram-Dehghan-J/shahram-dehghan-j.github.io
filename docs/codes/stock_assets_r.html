@@ -292,6 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="stock-assets" class="level1">
 <h1><i class="bi bi-graph-up-arrow"></i> Stock Assets</h1>
+<p>This document outlines the R script used to fetch <strong>historical data</strong> for various financial assets using the <code>quantmod</code> library.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -311,7 +312,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </div>
 </div>
-<p>This document outlines the R script used to fetch <strong>historical data</strong> for various financial assets using the <code>quantmod</code> library.</p>
 <section id="setup-and-imports" class="level2">
 <h2 class="anchored" data-anchor-id="setup-and-imports"><i class="bi bi-boxes"></i> Setup and Imports</h2>
 <p>This chunk loads the required R libraries for data fetching and manipulation.</p>
@@ -484,7 +484,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/shahram-dehghan-j\.github\.io");
+        var filterRegex = new RegExp("https:\/\/shahram-dehghan-j\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

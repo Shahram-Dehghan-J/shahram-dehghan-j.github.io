@@ -11,6 +11,8 @@ format:
 
 # <i class="bi bi-graph-up-arrow"></i> Stock Assets
 
+This document outlines the Python script used to fetch **historical data** for various financial assets using the `yfinance` library.
+
 ::: {.callout-note appearance="simple"}
 ## <i class="bi bi-info-circle"></i> Environment & Versions
 This script was developed and tested using the following software versions:
@@ -19,8 +21,6 @@ This script was developed and tested using the following software versions:
 * **yfinance:** 0.2.66 
 * **pandas:** 2.3.1
 :::
-
-This document outlines the Python script used to fetch **historical data** for various financial assets using the `yfinance` library.
 
 ## <i class="bi bi-boxes"></i> Setup and Imports
 

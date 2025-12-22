@@ -11,7 +11,7 @@ project:
 
 website:
   
-  site-url: "https://shahram-dehghan-j.github.io"
+  site-url: "https://shahram-dehghan-j.github.io/"
   
   navbar:
     title: false   # hides the title from the navbar
