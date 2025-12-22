@@ -6,12 +6,14 @@ project:
   resources:
     - "googlea001f7a2c08a32a0.html"
     - "robots.txt"
-    - "sitemap.xml" 
+    - "sitemap.xml"
+    - "favicon.svg"
 
 
 website:
   
   site-url: "https://shahram-dehghan-j.github.io/"
+  favicon: favicon.svg
   
   navbar:
     title: false   # hides the title from the navbar
@@ -79,7 +81,7 @@ format:
     html-meta:
       google-site-verification: "googlea001f7a2c08a32a0"
       description: "Personal academic website of Shahram Dehghan Jabarabadi, Postdoctoral Research Fellow at the University of Padua. Specializing in Econometrics, Textual Analysis, and Quantitative Finance with expertise in Time Series, Risk Management (VaR/ES/GARCH), and NLP (Sentiment/Topic Modeling). Research focuses on volatility, ESG indicators, and text-based analysis of economic systems."
-      keywords: "Shahram Dehghan Jabarabadi, Shahram Dehghan, Shahram, Dehghan, Jabarabadi, Economics, Econometrics, Textual Analysis, Quantitative Finance, Time Series Analysis, Risk Management, Natural Language Processing, NLP, Statistical Methods, GARCH, VaR, ES, ESG Integration, Volatility Analysis, Python, R,  University of Salerno, University of Padua, Postdoctoral Fellow, Research, Ph.D., Docotrate, Dr."
+      keywords: "Shahram Dehghan Jabarabadi, Shahram Dehghan, Shahram, Dehghan, Jabarabadi, Economics, Econometrics, Textual Analysis, Quantitative Finance, Time Series Analysis, Risk Management, Natural Language Processing, NLP, Statistical Methods, GARCH, VaR, ES, ESG Integration, Volatility Analysis, Python, R,  University of Salerno, University of Padua, Postdoctoral Fellow, Research, Ph.D., Docotrate, Dr., شهرام دهقان, شهرام دهقان جبارآبادی, جبارآبادی, جبارابادی, دادههای متنی, تحلیل ریسک, بازارهای مالی, اقتصاد, اقتصادسنجی, روشهای آماری"
     include-in-header:
       - text: |
           <!-- Font Awesome -->
