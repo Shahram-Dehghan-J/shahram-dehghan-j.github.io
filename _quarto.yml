@@ -22,8 +22,10 @@ website:
         href: index.qmd
       - text: 'Interests'
         href: interests.qmd
-      - text: 'Educations'
+      - text: 'Education'
         href: educations.qmd
+      - text: 'Career'
+        href: careers.qmd
       - text: 'Publications'
         href: publications.qmd
       - text: 'Teaching'

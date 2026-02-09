@@ -294,5 +294,65 @@ main {
   gap: 8px;
 }
 
+/*
+--------------------------------------
+  8. Time line
+--------------------------------------
+*/
 
+.timeline {
+  border-left: 3px solid #6c757d;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: inherit;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* The Dot */
+.timeline-item::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: #6c757d;
+  border-radius: 50%;
+  position: absolute;
+  left: -29px;
+  top: 5px;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* This creates the "Tab" effect */
+.timeline-info {
+  padding-left: 25px; 
+}
+
+.timeline-title {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #000;
+  display: block;
+}
+
+.timeline-org, .timeline-loc {
+  font-style: italic;
+  color: #555;
+  display: block;
+}
+
+.timeline-duties {
+  margin-top: 5px;
+  color: #666;
+  display: block;
+  font-size: 0.95em;
+}
 

@@ -1,5 +1,6 @@
 ---
-title: "Educations"
+title: "Education"
+format: html
 ---
 
 <div class="rule-gradient"></div>
@@ -23,6 +24,7 @@ Entitled: *"A transnational and diachronic study of treatises and textbooks of E
 corpus-driven and corpus-based analysis with a focus on lexicon and argumentation."* <br>
 Department of Economics and Management <br>
 University of Padova (Padova, Italy) <br><br>
+
 
 <div class="rule-gradient"></div>
 # <i class="bi bi-award"></i> Degrees
@@ -78,4 +80,6 @@ Perugia, Italy <br><br>
 **Spatial Econometrics Advanced** &nbsp;&nbsp;&nbsp;&nbsp; June 2021 <br>
 *Issued by:* Spatial Econometrics Association <br>
 [vertual], Italy <br><br>
+
+
 

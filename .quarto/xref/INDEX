@@ -115,5 +115,11 @@
   },
   "docs/shahram-dehghan-j.github.io/teaches.qmd": {
     "teaches.html": "b9f537f7"
+  },
+  "careers.qmd": {
+    "careers.html": "59908a72"
+  },
+  "codes/depth_unipd_python.qmd": {
+    "depth_unipd_python.html": "8b3e99db"
   }
 }

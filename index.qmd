@@ -11,6 +11,16 @@ sidebar: false
 
 <div class="rule-gradient"></div>
 
+<div class="name" style="font-size:0.8em;">
+  <a href="https://www.economia.unipd.it/" target="_blank">Department of Economics and Management</a>
+  
+  <a href="https://www.unipd.it/en/" target="_blank">University of Padua</a>
+  
+  Padua, Italy
+</div>
+
+<div class="rule-gradient"></div>
+
 <!-- Bio Section -->
 <div class="bio">
   <p>

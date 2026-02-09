@@ -6,9 +6,14 @@ title: "AWARDS"
 # <i class="bi bi-trophy"></i> Research Grants and Fellowships
 
 - **Research Fellow (Borsa di Ricerca)**
+    * **Project:** "Survey on foreign workers in the domestic/care sector" RIF. 2025BR26.
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** January 2026 – Present.
+
+- **Research Fellow (Borsa di Ricerca)**
     * **Project:** PNRR P9-GRINS Growing Resilient.
     * **Institution:** Department of Economics and Management, University of Padova, Italy.
-    * **Duration:** August 2025 – Present.
+    * **Duration:** August 2025 – December 2025.
 
 - **Research Grant (Co.co.co)**
     * **Project:** PNRR-CHANGE (CHAllenges in National Governance of Environment).

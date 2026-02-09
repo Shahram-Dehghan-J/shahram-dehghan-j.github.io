@@ -1,0 +1,134 @@
+---
+title: "Career Path"
+format: html
+---
+
+<div class="rule-gradient"></div>
+ 
+# <i class="bi bi-briefcase"></i> Timeline: Professional Experience
+
+```{=html}
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">May 2025 – Present</div>
+<div class="timeline-info">
+<div class="timeline-title">Research Fellow</div>
+<div class="timeline-org">University of Padova, Dept. of Economics and Management, Padova, Italy.</div>
+<div class="timeline-org">Duties and Responsibilities:</div>
+<div class="timeline-duties">
+- Textual data analysis and quantifications;
+- Econometrics timeseries analysis;
+- Cooperation in meeting and discussions;
+- Teaching;
+- Publication;
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">May 2024 – May 2025</div>
+<div class="timeline-info">
+<div class="timeline-title">Postdoctoral Research Fellow (CHANGE / LEXECON)</div>
+<div class="timeline-org">University of Padova, Dept. of Economics and Management, Padova, Italy.</div>
+<div class="timeline-org">Duties and Responsibilities:</div>
+<div class="timeline-duties">
+- Textual data analysis and quantifications for the pre-defined project;
+- Econometrics timeseries analysis;
+- Cooperation in meeting and discussions;
+- Teaching;
+- Publication;
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">August 2022 – November 2022</div>
+<div class="timeline-info">
+<div class="timeline-title">Visiting Research Activity (Ph.D.)</div>
+<div class="timeline-org">Department of Economics, Justus Liebig University Giessen, Giessen, Germany.</div>
+<div class="timeline-org">Duties and Responsibilities:</div>
+<div class="timeline-duties">
+- Training: Textual data analysis and quantifications techniques;
+- Training: Application of Python in Text mining and econometrics analysis;
+- Publication;
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">October 2020 – July 2024</div>
+<div class="timeline-info">
+<div class="timeline-title">Doctorate (Ph.D.) Degree</div>
+<div class="timeline-org">University of Salerno, Dept. of Economics and Statistics, Salerno, Italy.</div>
+<div class="timeline-duties">
+- Education Period.
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">July 2017 – June 2020</div>
+<div class="timeline-info">
+<div class="timeline-title">Research Assistant</div>
+<div class="timeline-org">Maazhin Group (Economist), Kermanshah, Iran.</div>
+<div class="timeline-org">Duties and Responsibilities:</div>
+<div class="timeline-duties">
+- Gather data of the public project;
+- Estimate the econometric and statistics models regarding the project;
+- Primary interpretation the estimation;
+- Linking between the accountant department and the research group.
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">September 2015 – May 2017</div>
+<div class="timeline-info">
+<div class="timeline-title">Master (M.A.) Degree</div>
+<div class="timeline-org">Razi University, Kermanshah, Iran.</div>
+<div class="timeline-duties">
+- Education Period.
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">March 2014 – April 2015</div>
+<div class="timeline-info">
+<div class="timeline-title">Heavy Truck Controller</div>
+<div class="timeline-org">Giti Afrooz Factory, Kermanshah, Iran.</div>
+<div class="timeline-org">Duties and Responsibilities:</div>
+<div class="timeline-duties">
+- Control the output and input of the stone broken machine;
+- Control the number of time heavy trucks load and unload;
+- Prepare the report for the accountant department at the end of day.
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">March 2013 – December 2013</div>
+<div class="timeline-info">
+<div class="timeline-title">CO2 Welder</div>
+<div class="timeline-org">Novin Sazeh Company, Kermanshah, Iran.</div>
+<div class="timeline-org">Duties and Responsibilities:</div>
+<div class="timeline-duties">
+- Welding the huge part of the building-skeleton By MAG technology;
+</div>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">September 2008 – May 2012</div>
+<div class="timeline-info">
+<div class="timeline-title">Bachelor Degree</div>
+<div class="timeline-org">Payame Noor University, Kermanshah, Iran.</div>
+<div class="timeline-duties">
+- Education Period.
+</div>
+</div>
+</div>
+
+</div>
+
+

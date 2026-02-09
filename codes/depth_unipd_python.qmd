@@ -1,0 +1,27 @@
+---
+title: "Depth Index in Environmental Treaties Using Python"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-summary: "Text mining to generate an index, which Measures the concept of depth for Environmental Treaties using legal documents"
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-graph-up-arrow"></i> Depth Index
+
+
+
+<div style="text-align: center;">
+
+# <span style="color: red;">🚧 **UNDER CONSTRUCTION** 🚧</span>
+
+> I'm currently updating this page. Please check back soon for the latest information.
+
+</div>
+
+
+
+**End**
+<div class="rule-gradient"></div>
