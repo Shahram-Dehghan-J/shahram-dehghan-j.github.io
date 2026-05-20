@@ -6,7 +6,13 @@ format: html
 <div class="rule-gradient"></div>
 # <i class="bi bi-people"></i> Postdoctorate and Research Fellowship
 
-**Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; August 2025 - Present <br>
+**Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; May 2026 - present <br>
+PRIN–LEXECON <br>
+Entitled: *"A transnational and diachronic study of treatises and textbooks of Economics. Intra- and interlingual corpus-driven and corpus-based analysis with a focus on lexicon and argumentation."* <br>
+Department of Economics and Management <br>
+University of Padova (Padova, Italy) <br><br>
+
+**Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; August 2025 - April 2026 <br>
 PNRR P9–GRINS Growing Resilient <br>
 Entitled: *"Sustainable procurement and CO2 reduction."* <br>
 Department of Economics and Management <br>
@@ -20,8 +26,7 @@ University of Padova (Padova, Italy) <br><br>
 
 **Postdoctoral Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; May 2024 - May 2025 <br>
 PRIN–LEXECON <br>
-Entitled: *"A transnational and diachronic study of treatises and textbooks of Economics. Intra- and interlingual
-corpus-driven and corpus-based analysis with a focus on lexicon and argumentation."* <br>
+Entitled: *"A transnational and diachronic study of treatises and textbooks of Economics. Intra- and interlingual corpus-driven and corpus-based analysis with a focus on lexicon and argumentation."* <br>
 Department of Economics and Management <br>
 University of Padova (Padova, Italy) <br><br>
 
