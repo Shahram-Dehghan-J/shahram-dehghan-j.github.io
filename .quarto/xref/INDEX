@@ -1,125 +1,56 @@
 {
-  "about.qmd": {
-    "about.html": "bed19ef6"
+  "about/awards.qmd": {
+    "awards.html": "af3c787c"
   },
-  "awards.qmd": {
-    "awards.html": "49ce89e1"
+  "about/career.qmd": {
+    "career.html": "52c8eae0"
   },
-  "codes.qmd": {
-    "codes.html": "15805afe"
+  "about/education.qmd": {
+    "education.html": "d8646599"
   },
-  "educations.qmd": {
-    "educations.html": "a2333350"
+  "about/teaching.qmd": {
+    "teaching.html": "0d475491"
   },
   "index.qmd": {
-    "index.html": "8a4062a5"
+    "index.html": "6e706cf8"
   },
-  "interests.qmd": {
-    "interests.html": "6566a11c"
+  "research/indices.qmd": {
+    "indices.html": "db5e4680"
   },
-  "publications.qmd": {
-    "publications.html": "5949294c"
+  "research/interests.qmd": {
+    "interests.html": "530b4bca"
   },
-  "teaches.qmd": {
-    "teaches.html": "c7e35554"
+  "research/publications.qmd": {
+    "publications.html": "8e3e1723"
   },
-  "CODES/DATA/dataPage.qmd": {
-    "dataPage.html": "2601fb45"
+  "tutorial/dataPage.qmd": {
+    "dataPage.html": "32d51f78"
   },
-  "CODES/LATEX/latexPage.qmd": {
-    "latexPage.html": "84ab0373"
+  "tutorial/latexPage.qmd": {
+    "latexPage.html": "2b14fe69"
   },
-  "CODES/PYTHON/pythonPage.qmd": {
-    "pythonPage.html": "bf2fe5e5"
+  "tutorial/pythonPage.qmd": {
+    "pythonPage.html": "75f943f1"
   },
-  "CODES/R/rPage.qmd": {
-    "rPage.html": "2c4edf4f"
+  "tutorial/rPage.qmd": {
+    "rPage.html": "a2e90536"
   },
-  "dataPage.qmd": {
-    "dataPage.html": "ef31d013"
+  "notebooks/depth_unipd_python.qmd": {
+    "depth_unipd_python.html": "d4048dad"
   },
-  "latexPage.qmd": {
-    "latexPage.html": "b7e87e84"
+  "notebooks/economic_indicators_python.qmd": {
+    "economic_indicators_python.html": "b523effd"
   },
-  "pythonPage.qmd": {
-    "pythonPage.html": "ef46ad63"
+  "notebooks/economic_indicators_r.qmd": {
+    "economic_indicators_r.html": "604f1c2c"
   },
-  "rPage.qmd": {
-    "rPage.html": "29e08648"
+  "notebooks/phys_org_python.qmd": {
+    "phys_org_python.html": "f60a1dea"
   },
-  "codes/stock_assets.qmd": {
-    "stock_assets.html": "f6f8088c"
+  "notebooks/stock_assets_python.qmd": {
+    "stock_assets_python.html": "6579344a"
   },
-  "docs/codes/stock_assets.qmd": {
-    "stock_assets.html": "4aa3c547"
-  },
-  "codes/stock_assets_python.qmd": {
-    "stock_assets_python.html": "c5d5e5ce"
-  },
-  "codes/stock_assets_r.qmd": {
-    "stock_assets_r.html": "e48a554c"
-  },
-  "codes/economic_indicators_python.qmd": {
-    "economic_indicators_python.html": "b8526c65"
-  },
-  "codes/economic_indicators_r.qmd": {
-    "economic_indicators_r.html": "a19a6e19"
-  },
-  "codes/phys_org_python.qmd": {
-    "phys_org_python.html": "e155d044"
-  },
-  "docs/shahram-dehghan-j.github.io/about.qmd": {
-    "about.html": "aed50e87"
-  },
-  "docs/shahram-dehghan-j.github.io/awards.qmd": {
-    "awards.html": "b433d41e"
-  },
-  "docs/shahram-dehghan-j.github.io/codes/economic_indicators_python.qmd": {
-    "economic_indicators_python.html": "ebcef500"
-  },
-  "docs/shahram-dehghan-j.github.io/codes/economic_indicators_r.qmd": {
-    "economic_indicators_r.html": "51fb006f"
-  },
-  "docs/shahram-dehghan-j.github.io/codes/phys_org_python.qmd": {
-    "phys_org_python.html": "2f5db2fc"
-  },
-  "docs/shahram-dehghan-j.github.io/codes/stock_assets_python.qmd": {
-    "stock_assets_python.html": "e5815f5f"
-  },
-  "docs/shahram-dehghan-j.github.io/codes/stock_assets_r.qmd": {
-    "stock_assets_r.html": "ef59df65"
-  },
-  "docs/shahram-dehghan-j.github.io/dataPage.qmd": {
-    "dataPage.html": "1c991c94"
-  },
-  "docs/shahram-dehghan-j.github.io/educations.qmd": {
-    "educations.html": "3f9f1cf3"
-  },
-  "docs/shahram-dehghan-j.github.io/index.qmd": {
-    "index.html": "74989793"
-  },
-  "docs/shahram-dehghan-j.github.io/interests.qmd": {
-    "interests.html": "66a90193"
-  },
-  "docs/shahram-dehghan-j.github.io/latexPage.qmd": {
-    "latexPage.html": "6a047a7a"
-  },
-  "docs/shahram-dehghan-j.github.io/publications.qmd": {
-    "publications.html": "7fe8d98e"
-  },
-  "docs/shahram-dehghan-j.github.io/pythonPage.qmd": {
-    "pythonPage.html": "e0935df6"
-  },
-  "docs/shahram-dehghan-j.github.io/rPage.qmd": {
-    "rPage.html": "60a2bc92"
-  },
-  "docs/shahram-dehghan-j.github.io/teaches.qmd": {
-    "teaches.html": "b9f537f7"
-  },
-  "careers.qmd": {
-    "careers.html": "59908a72"
-  },
-  "codes/depth_unipd_python.qmd": {
-    "depth_unipd_python.html": "8b3e99db"
+  "notebooks/stock_assets_r.qmd": {
+    "stock_assets_r.html": "86911352"
   }
 }

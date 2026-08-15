@@ -1,0 +1,52 @@
+---
+title: "Text-Based Indices"
+format: html
+---
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-tree"></i> ESG Narrative Index
+
+**Description:** <br>
+*Proposes an Environmental, Social, and Governance (ESG) indicator designed to overcome the limitations of traditional firm-specific ratings, such as inconsistency, infrequency, and bias toward large corporations. The study utilizes a scraped dataset over 390,000 online news articles covering the period from October 2004 to March 2024.*
+
+<a href="https://github.com/USERNAME/REPOSITORY"
+   class="btn btn-sm btn-outline-dark"
+   target="_blank"
+   rel="noopener">
+  <i class="bi bi-github"></i> Repository
+</a>
+
+<br><br>
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-clipboard-check"></i> Consistency Index
+
+**Description:** <br>
+*The Consistency Index measures the structural and linguistic consistency within...*
+
+<a href="https://github.com/USERNAME/REPOSITORY"
+   class="btn btn-sm btn-outline-dark"
+   target="_blank"
+   rel="noopener">
+  <i class="bi bi-github"></i> Repository
+</a>
+
+<br><br>
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-book"></i> Economic Schools of Thought Dictionaries
+
+**Description:** <br>
+*A collection of text-based dictionaries mapping to different economic schools of thought, designed to...*
+
+<br>
+<a href="https://github.com/USERNAME/REPOSITORY"
+   class="btn btn-sm btn-outline-dark"
+   target="_blank"
+   rel="noopener">
+  <i class="bi bi-github"></i> Repository
+</a>
+
+<br><br>

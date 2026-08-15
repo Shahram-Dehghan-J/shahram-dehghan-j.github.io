@@ -4,7 +4,7 @@ format: html
 sidebar: false
 ---
 
-<img src="websiteIMG.jpg" alt="Profile photo" class="profile-pic" style="float:left; margin-right:10px; width:230px; border-radius:50%;">
+<img src="gallary/websiteIMG.jpg" alt="Profile photo" class="profile-pic" style="float:left; margin-right:10px; width:230px; border-radius:50%;">
 
 <div class="name" style="font-size:0.9em;">Postdoctoral Research Fellow (Ph.D.)</div>
 <div class="name">Shahram Dehghan Jabarabadi</div>
@@ -37,21 +37,24 @@ sidebar: false
     <li><strong>Sustainable Finance & Policy Evaluation:</strong> Constructing novel text-based ESG indicators to evaluate corporate risk, supply chain CO2 reduction, and the linguistic depth of international environmental governance.</li>
   </ul>
 
-  <a href="https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&hl=it&oi=ao" class="btn">
-  <i class="ai ai-google-scholar"></i> Google Scholar
-  </a>
-  <a href="https://orcid.org/0009-0008-4627-7554" class="btn">
-    <i class="ai ai-orcid"></i> ORCID
-  </a>
-  <a href="mailto:shahram.deghan.j@icloud.com" class="btn">
-    <i class="fa-solid fa-envelope"></i> Email
-  </a>
-  <a href="mailto:shahram.deghanjabarabadi@unipd.it" class="btn">
-   <i class="fa-solid fa-envelope"></i> Academic Email
-  </a>
-  <a href="resume.pdf" class="btn">
-    <i class="fa-solid fa-file-lines"></i> Resume
-  </a>
 </div>
+
+<div class="profile-buttons">
+<a href="https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&hl=it&oi=ao" class="btn">
+    <i class="ai ai-google-scholar"></i> Google Scholar
+</a>
+<a href="https://orcid.org/0009-0008-4627-7554" class="btn">
+    <i class="ai ai-orcid"></i> ORCID
+</a>
+<a href="mailto:shahram.deghan.j@icloud.com" class="btn">
+    <i class="fa-solid fa-envelope"></i> Email
+</a>
+<a href="mailto:shahram.deghanjabarabadi@unipd.it" class="btn">
+    <i class="fa-solid fa-building"></i> Academic Email
+</a>
+</div>
+
+
+<div class="rule-gradient"></div>
 
 <div class="rule-gradient"></div>

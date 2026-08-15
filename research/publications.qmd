@@ -1,0 +1,98 @@
+---
+title: "Publications"
+---
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-journal-check"></i> Published
+
+* Is Monetary Policy a Driver of Cryptocurrencies? Evidence from a Structural Break GARCH-MIDAS Approach.  
+  **Alam, MS.; Amendola, A.; Candila, V.; Dehghan Jabarabadi, S.** (2024).  
+  *Econometrics*. [doi: https://doi.org/10.3390/econometrics12010002](https://doi.org/10.3390/econometrics12010002) 
+
+  <a href="https://github.com/USERNAME/REPOSITORY"
+     class="btn btn-sm btn-outline-dark"
+     target="_blank"
+     rel="noopener">
+    <i class="bi bi-github"></i> Repository
+  </a>
+
+---
+
+* Oil Price, Financial Markets Index and Inflation in Iran’s Economy.  
+  **Fattahi, S.; Soheili, K.; Dehghan Jabarabadi, S.** (2018).  
+  *International Journal of Management and Applied Science (IJMAS)*. [url: https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574](https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574) 
+
+  <a href="https://github.com/USERNAME/REPOSITORY"
+     class="btn btn-sm btn-outline-dark"
+     target="_blank"
+     rel="noopener">
+    <i class="bi bi-github"></i> Repository
+  </a>
+
+---
+
+* Analysis of Spillover Effects between Oil and Stock Market during Multi-Scales, Using GARCH-BEKK model.  
+  **Karimi, MS.; Hadarian, M.; Dehghan Jabarabadi, S.** (2018).  
+  *Financial Economics (IAUCTB)*. [url: https://journals.iau.ir/article_543455.html?lang=en](https://journals.iau.ir/article_543455.html?lang=en) 
+
+  <a href="https://github.com/USERNAME/REPOSITORY"
+     class="btn btn-sm btn-outline-dark"
+     target="_blank"
+     rel="noopener">
+    <i class="bi bi-github"></i> Repository
+  </a>
+
+---
+
+* Examination of Contagion in Financial Markets in Iran using a Combination of Ornstein Uhlenbeck process and Wavelet Method.  
+  **Fattahi, S.; Soheili, K.; Dehghan Jabarabadi, S.** (2018).  
+  *Journal of Econometric Modeling (Semnan University)*. [url: https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090](https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090) 
+
+  <a href="https://github.com/USERNAME/REPOSITORY"
+     class="btn btn-sm btn-outline-dark"
+     target="_blank"
+     rel="noopener">
+    <i class="bi bi-github"></i> Repository
+  </a>
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-journal-arrow-up"></i> UNDER REVIEW
+
+* The Role of Planned and Unexpected Events on Financial Markets.  
+  **Dehghan Jabarabadi, S.; Alam, MS.; Shafiullah, M.** (Submitted).  
+  *Financial Innovation*. [Journal Link: https://jfin-swufe.springeropen.com/](https://jfin-swufe.springeropen.com/)
+
+---
+
+* A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications.  
+  **Dehghan Jabarabadi, S.; Amendola, A.; Candila, V.; Winker, P.** (Under review: First round of revisions.).  
+  *International Review of Financial Analysis*. [Journal Link: https://www.sciencedirect.com/journal/socio-economic-planning-sciences](https://www.sciencedirect.com/journal/socio-economic-planning-sciences)
+
+---
+
+* Evolution of Textual Analysis from Human to Machine Thinking: A PRISMA-ScR-Guided Systematic Mapping and Bibliometric Study (1957--2023).  
+  **Candila, V.; Dehghan Jabarabadi, S.** (Under review: First round of revisions.).  
+  *Quality & Quantity*. [Journal Link: https://link.springer.com/journal/11135](https://link.springer.com/journal/11135)
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-journal-text"></i> Working Papers (In Process)
+
+* Mapping Central Idea of Corpus by Categorized Dictionaries from Corpus: Analyzing Economic Schools of Thought.  
+  **Dehghan Jabarabadi, Sh.; Tusset, G.**  
+  University of Padua, Italy
+
+---
+
+* When a Textbook Makes a Difference: Lexical Segmentation in Economics Textbooks and Long-Run Macroeconomic Performance.  
+  **Tusset, G.; Dehghan Jabarabadi, Sh.**  
+  University of Padua, Italy
+
+---
+
+* Propose a text-based "Depth" Measurement in International Environmental Agreements.  
+  **Dal Monico, S.; Dehghan Jabarabadi, Sh.; Lancia, F.; Russo, A.; Werth, J.**  
+  University of Padua, Italy
+
+<div class="rule-gradient"></div>
