@@ -61,19 +61,19 @@ title: "Publications"
 
 * The Role of Planned and Unexpected Events on Financial Markets.  
   **Dehghan Jabarabadi, S.; Alam, MS.; Shafiullah, M.** (Submitted).  
-  *Financial Innovation*. [Journal Link: https://jfin-swufe.springeropen.com/](https://jfin-swufe.springeropen.com/)
+  *J. Financial Innovation*. [Journal Link: https://jfin-swufe.springeropen.com/](https://jfin-swufe.springeropen.com/)
 
 ---
 
 * A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications.  
   **Dehghan Jabarabadi, S.; Amendola, A.; Candila, V.; Winker, P.** (Under review: First round of revisions.).  
-  *International Review of Financial Analysis*. [Journal Link: https://www.sciencedirect.com/journal/socio-economic-planning-sciences](https://www.sciencedirect.com/journal/socio-economic-planning-sciences)
+  *J. Socio-Economic Planning Sciences*. [Journal Link: https://www.sciencedirect.com/journal/socio-economic-planning-sciences](https://www.sciencedirect.com/journal/socio-economic-planning-sciences)
 
 ---
 
 * Evolution of Textual Analysis from Human to Machine Thinking: A PRISMA-ScR-Guided Systematic Mapping and Bibliometric Study (1957--2023).  
   **Candila, V.; Dehghan Jabarabadi, S.** (Under review: First round of revisions.).  
-  *Quality & Quantity*. [Journal Link: https://link.springer.com/journal/11135](https://link.springer.com/journal/11135)
+  *J. Quality & Quantity*. [Journal Link: https://link.springer.com/journal/11135](https://link.springer.com/journal/11135)
 
 
 <div class="rule-gradient"></div>
