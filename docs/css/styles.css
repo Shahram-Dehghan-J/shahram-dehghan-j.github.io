@@ -1,0 +1,468 @@
+/* styles.css */
+
+/*
+--------------------------------------
+  1. TYPOGRAPHY & BASE STYLES
+--------------------------------------
+*/
+
+/* Base text */
+body {
+  color: #222222;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #002147; /* deep navy */
+  font-weight: 700;
+}
+
+h4, h5, h6 {
+  color: #2F4F6F; /* slate blue for softer subheadings */
+}
+
+/* Links */
+a {
+  color: #0047AB; /* royal blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66b2ff; 
+  text-decoration: underline;
+}
+
+/* Accents */
+.highlight, blockquote {
+  color: #006D77; /* teal accent */
+  border-left: 4px solid #006D77;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+/* Secondary text */
+small, .metadata {
+  color: #555555;
+}
+
+
+/*
+--------------------------------------
+  2. MAIN LAYOUT & STRUCTURAL ELEMENTS
+--------------------------------------
+*/
+
+main {
+  background-color: #ffffff; /* white content area */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* subtle card effect */
+}
+
+.page-footer .nav-footer-right {
+  display: inline-block;   /* force inline */
+  white-space: nowrap;     /* prevent wrapping */
+}
+
+.rule-gradient {
+  height: 3px;
+  background: linear-gradient(to right, transparent, rgba(255, 215, 0, 1), transparent);
+  margin: 1.2rem 0;
+}
+
+
+/*
+--------------------------------------
+  3. NAVIGATION BAR (NAVBAR) STYLES
+--------------------------------------
+*/
+
+.navbar {
+  background-color: #002147; 
+}
+
+/* Base style and hover effect for main menu links */
+.navbar-nav .nav-link {
+  position: relative;
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+/* Use ::before so it doesn't conflict with Bootstrap's dropdown arrow */
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffcc00; /* gold underline */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 100%;
+}
+
+/* Secondary Hover effect */
+.navbar-nav .nav-link:hover {
+  background: linear-gradient(90deg, #0055aa, #0099ff);
+  color: #ffffff !important;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #0055aa;
+  color: #ffffff !important;
+  border-radius: 6px;
+}
+
+/* Modern Dropdown Menu Container */
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.25s ease-in-out;
+  margin-top: 0;
+  
+  /* Modern Visuals */
+  background-color: rgba(0, 33, 71, 0.95) !important; /* Matches navy navbar */
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  min-width: 180px;
+}
+
+.dropdown:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Modern Dropdown Items */
+.dropdown-menu .dropdown-item {
+  color: #e2e8f0 !important;
+  font-size: 0.9em;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #0055aa !important; /* Accent blue hover */
+  color: #ffffff !important;
+  padding-left: 16px; /* Smooth subtle slide-right effect */
+}
+
+
+/*
+--------------------------------------
+  4. SIDEBAR STYLES
+--------------------------------------
+*/
+
+.sidebar {
+  width: 265px;
+  background: linear-gradient(135deg, #fdfdfd 0%, #e6f0ff 50%, #fdfdfd 100%);
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 51, 102, 0.05) 0px,
+    rgba(0, 51, 102, 0.05) 2px,
+    transparent 2px,
+    transparent 6px
+  );
+  padding: 8px;
+  border-radius: 5px;
+}
+
+
+.sidebar .nav-item {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+/*
+--------------------------------------
+  5. CUSTOM COMPONENTS (Buttons/Boxes)
+--------------------------------------
+*/
+
+/* Link Button Group (used in content area) */
+.bottom-links {
+  display: flex;
+  justify-content: center;   /* center them horizontally */
+  gap: 1rem;                 /* spacing between buttons */
+  margin-top: 1.5rem;
+}
+
+.link-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95em;
+  color: #333;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+  background: #e6e6e6;
+  border-color: rgba(0,0,0,0.4);
+}
+
+/* Profile Buttons (used in index bio) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.95rem;       /* rectangle size */
+  background-color: #0055aa;    /* light blue fill */
+  color: #fffcfc;
+  font-size: 0.95em;
+  font-weight: 800;
+  text-decoration: none;
+  gap: 0.4rem;
+  border: none;                 /* no border around */
+  border-bottom: 3px solid transparent; /* underline placeholder */
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  border-bottom: 3px solid #ffcc00; /* gold underline on hover */
+  color: #1f1f1f;
+}
+
+.btn i {
+  font-size: 1em;
+  color: inherit;               /* icon matches text color */
+}
+
+/*
+--------------------------------------
+  6. INDEX.QMD SPECIFIC LAYOUT
+--------------------------------------
+*/
+
+.profile-box {
+  border: 1px solid #ddd;          /* subtle border */
+  background-color: #fdfdfd;       /* very light background */
+  padding: 1rem 1.5rem;            /* space inside the box */
+  border-radius: 8px;              /* rounded corners */
+  margin-top: 2rem;                /* space above the box */
+  text-align: center;              /* center content */
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;                 /* wrap if too many links */
+  gap: 1.2rem;
+}
+
+.bio {
+  max-width: 1100px;          /* keeps text readable */
+  margin: 2rem auto;         /* centers the bio block */
+  font-size: 1em;
+  line-height: 1.6;          /* improves readability */
+  color: #333;               /* neutral text color */
+  text-align: justify;       /* professional alignment */
+}
+
+.title-section {
+  display: flex;
+  align-items: center;       /* aligns text block and photo vertically */
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;    /* stack PhD line above name */
+  justify-content: center;   /* vertically center relative to photo */
+}
+
+.degree {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.3rem;        /* small spacing between degree and name */
+}
+
+.profile-pic {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 1rem;
+  border: 3px solid #ffcc00;
+}
+
+/*
+--------------------------------------
+  7. lists
+--------------------------------------
+*/
+
+.list-icons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/*
+--------------------------------------
+  8. Time line
+--------------------------------------
+*/
+
+.timeline {
+  border-left: 3px solid #6c757d;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: inherit;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* The Dot */
+.timeline-item::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: #6c757d;
+  border-radius: 50%;
+  position: absolute;
+  left: -29px;
+  top: 5px;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* This creates the "Tab" effect */
+.timeline-info {
+  padding-left: 25px; 
+}
+
+.timeline-title {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #000;
+  display: block;
+}
+
+.timeline-org, .timeline-loc {
+  font-style: italic;
+  color: #555;
+  display: block;
+}
+
+.timeline-duties {
+  margin-top: 5px;
+  color: #666;
+  display: block;
+  font-size: 0.95em;
+}
+
+/*
+--------------------------------------
+  9. Opnen Science Page
+--------------------------------------
+*/
+
+/* Responsive Grid Container */
+.os-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Tile / Card Styling */
+.os-card {
+  background: #ffffff;
+  border: 1px solid #e0e6ed;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* Mouse Hover Interaction */
+.os-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 33, 71, 0.12);
+  border-color: #0055aa;
+}
+
+/* Content Elements Inside Card */
+.os-card-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #002147;
+}
+
+.os-card-desc {
+  font-size: 0.95rem;
+  color: #444444;
+  margin-bottom: 1rem;
+  flex-grow: 1; /* Keeps footer links aligned evenly across cards */
+}
+
+.os-card-meta {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.os-lang-tag {
+  background-color: #e6f0ff;
+  color: #0055aa;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.os-card-link {
+  display: inline-block;
+  text-align: center;
+  background-color: #002147;
+  color: #ffffff !important;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.os-card-link:hover {
+  background-color: #0055aa;
+  text-decoration: none !important;
+}
+
+

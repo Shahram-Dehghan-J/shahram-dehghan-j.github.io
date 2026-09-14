@@ -32,19 +32,7 @@ website:
         href: pages/interests.qmd
       - text: 'Open Science'
         href: pages/openscience.qmd
-      #     - text: 'Awards'
-      #       href: about/awards.qmd
- 
-      #   menu:
-      #     - text: "Data"
-      #       href: tutorial/dataPage.qmd
-      #     - text: "Python"
-      #       href: tutorial/pythonPage.qmd
-      #     - text: "R"
-      #       href: tutorial/rPage.qmd
-      #     - text: "LaTeX"
-      #       href: tutorial/latexPage.qmd
-   
+       
     right:
       - icon: mortarboard
         href: https://scholar.google.com/citations?user=W_Qsf4MAAAAJ&hl=it&oi=ao

@@ -81,7 +81,7 @@ Introduces a novel quantitative Textual Consistency Index based on a multi-lingu
 
 
 ::: {.os-card}
-<h3 class="os-card-title">Fetch **Historical Data** for various Financial Assets</h3>
+<h3 class="os-card-title">Fetch **Historical Data** Using Python</h3>
 
 <p class="os-card-desc">
 This script is used to fetch **historical data** for various financial assets using the `yfinance` library.
@@ -93,6 +93,25 @@ This script is used to fetch **historical data** for various financial assets us
 :::
 
 [View Dataset Details](/notebooks/stock_assets_python.qmd){.os-card-link}
+:::
+
+
+::: {.os-grid}
+
+
+::: {.os-card}
+<h3 class="os-card-title">Fetch **Historical Data** Using R</h3>
+
+<p class="os-card-desc">
+This script is used to fetch **historical data** for various financial assets using the `quantmod` library.
+</p>
+
+::: {.os-card-meta} 
+![Language: R](https://img.shields.io/badge/language-R-blue.svg)  
+![Status: Online](https://img.shields.io/badge/status-Online-brightgreen.svg)
+:::
+
+[View Dataset Details](/notebooks/stock_assets_r.qmd){.os-card-link}
 :::
 
 
