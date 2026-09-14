@@ -1,0 +1,134 @@
+---
+title: "Publications & Research"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: right
+---
+
+<div class="rule-gradient"></div>
+
+# <i class="bi bi-journal-check"></i> Peer-Reviewed Publications 
+
+
+
+* [2024]{style="background-color: lightgray; color: black; font-size: 1em; padding: 4px 8px; border-radius: 5px; font-weight: bold;"} **Is Monetary Policy a Driver of Cryptocurrencies? Evidence from a Structural Break GARCH-MIDAS Approach.** <br> Alam, MS.; Amendola, A.; Candila, V.; Dehghan Jabarabadi, S. <br> *Journal of Econometrics*. <br> [DOI: https://doi.org/10.3390/econometrics12010002](https://doi.org/10.3390/econometrics12010002)
+  
+  <a href="https://www.mdpi.com/2225-1146/12/1/2/pdf?version=1704707172" target="_blank">
+    <img src="https://img.shields.io/badge/Access-Open%20Access-green.svg" alt="Open Access">
+  </a>
+
+  <!-- <a href="https://github.com/USERNAME/REPOSITORY"
+     class="btn btn-sm btn-outline-dark"
+     target="_blank"
+     rel="noopener">
+    <i class="bi bi-github"></i> Repository
+  </a> -->
+
+---
+
+* [2018]{style="background-color: lightgray; color: black; font-size: 1em; padding: 4px 8px; border-radius: 5px; font-weight: bold;"} **Oil Price, Financial Markets Index and Inflation in Iran’s Economy.** <br> Fattahi, S.; Soheili, K.; Dehghan Jabarabadi, S. <br> *International Journal of Management and Applied Science (IJMAS)*. <br> [DOI: https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574](https://iraj.doionline.org/dx/IJMAS-IRAJ-DOIONLINE-14574)  
+  
+  <a href="data/IJMAS-2018-Paper.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Access-Open%20Access-green.svg" alt="Access: Open Access">
+  </a>
+
+---
+
+* [2018]{style="background-color: lightgray; color: black; font-size: 1em; padding: 4px 8px; border-radius: 5px; font-weight: bold;"} **Analysis of Spillover Effects between Oil and Stock Market during Multi-Scales, Using GARCH-BEKK model.** <br> Karimi, MS.; Hadarian, M.; Dehghan Jabarabadi, S. <br> *Financial Economics (IAUCTB)*. <br> [DOI: https://journals.iau.ir/article_543455.html?lang=en](https://journals.iau.ir/article_543455.html?lang=en) 
+
+  <a href="data/IAUCTB-2018-Paper.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Access-Open%20Access-green.svg" alt="Access: Open Access">
+  </a>
+
+---
+
+* [2018]{style="background-color: lightgray; color: black; font-size: 1em; padding: 4px 8px; border-radius: 5px; font-weight: bold;"} **Examination of Contagion in Financial Markets in Iran using a Combination of Ornstein Uhlenbeck process and Wavelet Method.** <br> Fattahi, S.; Soheili, K.; Dehghan Jabarabadi, S. <br> *Journal of Econometric Modeling (Semnan University)*. <br> [DOI: https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090](https://jem.semnan.ac.ir/article_3150.html?lang=en.10.22075/jem.2018.12956.1090) 
+
+  <a href="https://jem.semnan.ac.ir/article_3150_77ee3bc58ce560b86c2b59363281e914.pdf?lang=en" target="_blank">
+    <img src="https://img.shields.io/badge/Access-Open%20Access-green.svg" alt="Access: Open Access">
+  </a>
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-journal-arrow-up"></i> UNDER REVIEW
+
+
+* **A Novel ESG Indicator from Textual Data: Construction, Evaluation, and Risk Management Applications.** <br> Dehghan Jabarabadi, S.; Amendola, A.; Candila, V.; Winker, P. <br> *Journal of Socio-Economic Planning Sciences*.
+
+  <a href="https://www.sciencedirect.com/journal/socio-economic-planning-sciences" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Journal%20Link&message=https://www.sciencedirect.com/journal/socio-economic-planning-sciences&color=blue" alt="DOI">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Status-1st%20Round%20of%20Revision%20Requested-orange.svg" alt="Status">
+  </a>
+ 
+
+---
+
+* **Mapping the Mehodological Shift in Textual Analysis: A Systematic Scoping Review and Bibliometric Evaluation from Human to Machine Thinking (1957-2023).** <br> Candila, V.; Dehghan Jabarabadi, S. <br> *Journal of Quality & Quantity*. 
+
+  <a href="https://link.springer.com/journal/11135" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Journal%20Link&message=https://link.springer.com/journal/11135&color=blue" alt="Journal Link">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Status-2nd%20Round%20of%20Revision%20Requested-orange.svg" alt="Status">
+  </a>
+
+---
+
+* **The Role of Planned and Unexpected Events on Financial Markets.** <br> Dehghan Jabarabadi, S.; Alam, MS.; Shafiullah, M. <br> *Journal of Financial Innovation*.
+  
+  <a href="https://jfin-swufe.springeropen.com/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Journal%20Link&message=https://jfin-swufe.springeropen.com/&color=blue" alt="Journal Link">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Status-With%20Editor-orange.svg" alt="Status">
+  </a>
+
+---
+
+* **Information-Theoretic Measures of Textual Volatility: A Dual-Pipline NLP Framework for Historical Corpora.** <br> Dehghan Jabarabadi, S.; Tusset, G. <br> *Journal of Entropy*
+  
+  <a href="https://www.mdpi.com/journal/entropy/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Journal%20Link&message=https://www.mdpi.com/journal/entropy&color=blue" alt="Journal Link">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Status-With%20Editor-orange.svg" alt="Status">
+  </a>
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-journal-text"></i> Working Papers (In Process)
+
+* Mapping Central Ideas in Textual Corpora: A Token-Based Dictionary Approach to Economic Thought.  
+  **Dehghan Jabarabadi, Sh.; Tusset, G.**
+
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Status-Drafted-orange.svg" alt="Status">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Affiliation-University%20of%20Padua,%20Italy-green.svg" alt="Affiliation: University of Padua">
+  </a>
+
+
+---
+
+* Propose a text-based "Depth" Measurement in International Environmental Agreements.  
+  **Dal Monico, S.; Dehghan Jabarabadi, Sh.; Lancia, F.; Russo, A.; Werth, J.** 
+
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Status-Work%20In%20Progress-orange.svg" alt="Status">
+  </a>
+  <br>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Affiliation-University%20of%20Padua,%20Italy-green.svg" alt="Affiliation: University of Padua">
+  </a>
+
+<div class="rule-gradient"></div>

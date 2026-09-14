@@ -1,5 +1,5 @@
 ---
-title: "Career Path"
+title: "Curriculum Vitae and Awards"
 format: html
 ---
 
@@ -16,11 +16,12 @@ format: html
 <div class="timeline-org">University of Padova, Dept. of Economics and Management, Padova, Italy.</div>
 <div class="timeline-org">Duties and Responsibilities:</div>
 <div class="timeline-duties">
-- Textual data analysis and quantifications;
-- Econometrics timeseries analysis;
-- Cooperation in meeting and discussions;
-- Teaching;
-- Publication;
+  <ul>
+    <li>Textual data analysis and quantifications;</li>
+    <li>Econometrics timeseries analysis;</li>
+    <li>Cooperation in meeting and discussions;</li>
+    <li>Teaching and Publication;</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -31,12 +32,13 @@ format: html
 <div class="timeline-title">Postdoctoral Research Fellow (CHANGE / LEXECON)</div>
 <div class="timeline-org">University of Padova, Dept. of Economics and Management, Padova, Italy.</div>
 <div class="timeline-org">Duties and Responsibilities:</div>
-<div class="timeline-duties">
-- Textual data analysis and quantifications for the pre-defined project;
-- Econometrics timeseries analysis;
-- Cooperation in meeting and discussions;
-- Teaching;
-- Publication;
+<div class="timeline-duties"><ul>
+    <li>Textual data analysis and quantifications for the pre-defined project;</li>
+    <li>Econometrics timeseries analysis;</li>
+    <li>Cooperation in meeting and discussions;</li>
+    <li>Teaching;</li>
+    <li>Publication;</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -48,9 +50,11 @@ format: html
 <div class="timeline-org">Department of Economics, Justus Liebig University Giessen, Giessen, Germany.</div>
 <div class="timeline-org">Duties and Responsibilities:</div>
 <div class="timeline-duties">
-- Training: Textual data analysis and quantifications techniques;
-- Training: Application of Python in Text mining and econometrics analysis;
-- Publication;
+  <ul>
+    <li>Training: Textual data analysis and quantifications techniques;</li>
+    <li>Training: Application of Python in Text mining and econometrics analysis;</li>
+    <li>Publication;</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -61,7 +65,9 @@ format: html
 <div class="timeline-title">Doctorate (Ph.D.) Degree</div>
 <div class="timeline-org">University of Salerno, Dept. of Economics and Statistics, Salerno, Italy.</div>
 <div class="timeline-duties">
-- Education Period.
+  <ul>
+    <li>Education Period.</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -73,10 +79,12 @@ format: html
 <div class="timeline-org">Maazhin Group (Economist), Kermanshah, Iran.</div>
 <div class="timeline-org">Duties and Responsibilities:</div>
 <div class="timeline-duties">
-- Gather data of the public project;
-- Estimate the econometric and statistics models regarding the project;
-- Primary interpretation the estimation;
-- Linking between the accountant department and the research group.
+  <ul>
+    <li>Gather data of the public project;</li>
+    <li>Estimate the econometric and statistics models regarding the project;</li>
+    <li>Primary interpretation the estimation;</li>
+    <li>Linking between the accountant department and the research group.</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -87,7 +95,9 @@ format: html
 <div class="timeline-title">Master (M.A.) Degree</div>
 <div class="timeline-org">Razi University, Kermanshah, Iran.</div>
 <div class="timeline-duties">
-- Education Period.
+  <ul>
+    <li>Education Period.</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -99,9 +109,11 @@ format: html
 <div class="timeline-org">Giti Afrooz Factory, Kermanshah, Iran.</div>
 <div class="timeline-org">Duties and Responsibilities:</div>
 <div class="timeline-duties">
-- Control the output and input of the stone broken machine;
-- Control the number of time heavy trucks load and unload;
-- Prepare the report for the accountant department at the end of day.
+  <ul>
+    <li>Control the output and input of the stone broken machine;</li>
+    <li>Control the number of time heavy trucks load and unload;</li>
+    <li>Prepare the report for the accountant department at the end of day.</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -113,7 +125,9 @@ format: html
 <div class="timeline-org">Novin Sazeh Company, Kermanshah, Iran.</div>
 <div class="timeline-org">Duties and Responsibilities:</div>
 <div class="timeline-duties">
-- Welding the huge part of the building-skeleton By MAG technology;
+  <ul>
+    <li>Welding the huge part of the building-skeleton By MAG technology;</li>
+  </ul>
 </div>
 </div>
 </div>
@@ -124,11 +138,46 @@ format: html
 <div class="timeline-title">Bachelor Degree</div>
 <div class="timeline-org">Payame Noor University, Kermanshah, Iran.</div>
 <div class="timeline-duties">
-- Education Period.
+  <ul>
+    <li>Education Period.</li>
+  </ul>
 </div>
 </div>
 </div>
 
 </div>
 
+<div class="rule-gradient"></div>
 
+# <i class="bi bi-trophy"></i> Research Grants and Fellowships
+
+- **Research Fellow (Borsa di Ricerca)**
+    * **Project:** "Survey on foreign workers in the domestic/care sector" RIF. 2025BR26.
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** January 2026 – Present.
+
+- **Research Fellow (Borsa di Ricerca)**
+    * **Project:** PNRR P9-GRINS Growing Resilient.
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** August 2025 – December 2025.
+
+- **Research Grant (Co.co.co)**
+    * **Project:** PNRR-CHANGE (CHAllenges in National Governance of Environment).
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** August 2025 – December 2025.
+
+- **Postdoctoral Research Grant**
+    * **Project:** PRIN-LEXECON.
+    * **Institution:** Department of Economics and Management, University of Padova, Italy.
+    * **Duration:** May 2024 – May 2025.
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-mortarboard"></i> Doctoral Scholarship
+
+- **Ph.D. in Economics and Policy Analysis of Markets and Firms**
+    * **Curriculum:** Statistical Methods.
+    * **Institution:** Department of Economics and Statistics, University of Salerno, Italy.
+    * **Duration:** October 2020 – January 2024.
+  
+
+<div class="rule-gradient"></div>

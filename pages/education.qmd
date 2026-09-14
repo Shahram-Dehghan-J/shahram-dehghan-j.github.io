@@ -1,10 +1,10 @@
 ---
-title: "Education"
+title: "Education & Academic Appointments"
 format: html
 ---
 
 <div class="rule-gradient"></div>
-# <i class="bi bi-people"></i> Postdoctorate and Research Fellowship
+# <i class="bi bi-people"></i> Postdoctoral & Research Fellowships
 
 **Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; May 2025 - present <br>
 Department of Economics and Management (dSEA), University of Padova, Italy <br><br>
@@ -99,4 +99,3 @@ Perugia, Italy <br><br>
 [vertual], Italy <br><br>
 
 <div class="rule-gradient"></div>
-

@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://shahram-dehghan-j.github.io/sitemap.xml

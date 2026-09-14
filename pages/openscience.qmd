@@ -1,0 +1,99 @@
+---
+title: "Open Science & Code Repositories"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: right
+---
+
+<div class="rule-gradient"></div>
+
+I am committed to open science and computational reproducibility. Below are public repositories containing code, replication packages, and dataset pipelines for my peer-reviewed publications and research projects.
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-chat-left-text"></i> NLP & Text Analytics
+
+::: {.os-grid}
+
+::: {.os-card}
+<h3 class="os-card-title">Text-Based ESG Narrative Indicators</h3>
+
+<p class="os-card-desc">
+Proposes an Environmental, Social, and Governance (ESG) indicator designed to overcome the limitations of traditional firm-specific ratings, such as inconsistency, infrequency, and bias toward large corporations. The study utilizes a scraped dataset over 390,000 online news articles covering the period from October 2004 to March 2024.
+</p>
+
+::: {.os-card-meta} 
+![Language: Python and R](https://img.shields.io/badge/language-Python%20and%20R-blue.svg)  
+![Status: Under Construction](https://img.shields.io/badge/status-Under%20Construction-lightgrey.svg)
+:::
+
+[Repository Address](https://github.com/Shahram-Dehghan-J/DISES_UNISA_ESG.git){.os-card-link target="_blank"}
+:::
+
+::: {.os-card}
+<h3 class="os-card-title">Mapping Central Ideas in Textual Corpora</h3>
+
+<p class="os-card-desc">
+Introduces a novel, field-agnostic tokenbased dictionary construction framework. The proposed pipeline integrates Part-of-Speech (POS) filtering, Term Frequency-Inverse Document Frequency (TF-IDF) weighting, and multi-word ngram extraction to systematically isolate core theoretical constructs without requiring exhaustive domain-specific neural network fine-tuning.
+</p>
+
+::: {.os-card-meta} 
+![Language: Python](https://img.shields.io/badge/language-Python-blue.svg)  
+![Status: Under Construction](https://img.shields.io/badge/status-Under%20Construction-lightgrey.svg)
+:::
+
+[Repository Address](https://github.com/Shahram-Dehghan-J/dSEA_UNIPD_Dictionary){.os-card-link target="_blank"}
+:::
+
+::: {.os-card}
+<h3 class="os-card-title">Internal consistency and stylistic stability of educational textbooks</h3>
+
+<p class="os-card-desc">
+Introduces a novel quantitative Textual Consistency Index based on a multi-lingual corpus of 480 historical economics textbooks across English, French, and Italian published between 1890 and 1976t. Utilizing a dual-pipeline natural language processing framework, we systematically quantify micro-structural coherence and pedagogical stability over nearly a century of economic thought.
+</p>
+
+::: {.os-card-meta} 
+![Language: Python](https://img.shields.io/badge/language-Python-blue.svg)  
+![Status: Under Construction](https://img.shields.io/badge/status-Under%20Construction-lightgrey.svg)
+:::
+
+[Repository Address](https://github.com/Shahram-Dehghan-J/dSEA_UNIPD_Consistency){.os-card-link target="_blank"}
+:::
+
+
+::: 
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-graph-up"></i>  Time Series & Econometrics
+
+
+
+
+
+
+<div class="rule-gradient"></div>
+# <i class="bi bi-server"></i> Data Pipelines & Web Scraping
+
+
+::: {.os-grid}
+
+
+::: {.os-card}
+<h3 class="os-card-title">Fetch **Historical Data** for various Financial Assets</h3>
+
+<p class="os-card-desc">
+This script is used to fetch **historical data** for various financial assets using the `yfinance` library.
+</p>
+
+::: {.os-card-meta} 
+![Language: Python](https://img.shields.io/badge/language-Python-blue.svg)  
+![Status: Online](https://img.shields.io/badge/status-Online-brightgreen.svg)
+:::
+
+[View Dataset Details](/notebooks/stock_assets_python.qmd){.os-card-link}
+:::
+
+
+:::

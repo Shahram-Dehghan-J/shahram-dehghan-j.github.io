@@ -21,33 +21,29 @@ website:
       - text: 'Home'
         href: index.qmd
       - text: 'Curriculum Vitae'
-        menu:
-          - text: 'Career'
-            href: about/career.qmd
-          - text: 'Education'
-            href: about/education.qmd
-          - text: 'Teaching'
-            href: about/teaching.qmd
-          - text: 'Awards'
-            href: about/awards.qmd
-      - text: 'Research'
-        menu:
-          - text: 'Publications'
-            href: research/publications.qmd
-          - text: 'Interests'
-            href: research/interests.qmd
-          - text: 'Indices'
-            href: research/indices.qmd
+        href: pages/cv.qmd
+      - text: 'Education'
+        href: pages/education.qmd
+      - text: 'Publications'
+        href: pages/publication.qmd
+      - text: 'Teaching'
+        href: pages/teaching.qmd
+      - text: 'Interests'
+        href: pages/interests.qmd
       - text: 'Open Science'
-        menu:
-          - text: "Data"
-            href: tutorial/dataPage.qmd
-          - text: "Python"
-            href: tutorial/pythonPage.qmd
-          - text: "R"
-            href: tutorial/rPage.qmd
-          - text: "LaTeX"
-            href: tutorial/latexPage.qmd
+        href: pages/openscience.qmd
+      #     - text: 'Awards'
+      #       href: about/awards.qmd
+ 
+      #   menu:
+      #     - text: "Data"
+      #       href: tutorial/dataPage.qmd
+      #     - text: "Python"
+      #       href: tutorial/pythonPage.qmd
+      #     - text: "R"
+      #       href: tutorial/rPage.qmd
+      #     - text: "LaTeX"
+      #       href: tutorial/latexPage.qmd
    
     right:
       - icon: mortarboard

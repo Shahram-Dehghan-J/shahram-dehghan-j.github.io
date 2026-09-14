@@ -52,5 +52,29 @@
   },
   "notebooks/stock_assets_r.qmd": {
     "stock_assets_r.html": "86911352"
+  },
+  "pages/cv.qmd": {
+    "cv.html": "5691b609"
+  },
+  "pages/education.qmd": {
+    "education.html": "0f09ccfa"
+  },
+  "docs/pages/teaching.qmd": {
+    "teaching.html": "f668eb86"
+  },
+  "pages/teaching.qmd": {
+    "teaching.html": "f9346f57"
+  },
+  "pages/research.qmd": {
+    "research.html": "4fd12a47"
+  },
+  "pages/openscience.qmd": {
+    "openscience.html": "fa95187f"
+  },
+  "pages/interests.qmd": {
+    "interests.html": "1b2212b7"
+  },
+  "pages/publication.qmd": {
+    "publication.html": "131fa54b"
   }
 }
