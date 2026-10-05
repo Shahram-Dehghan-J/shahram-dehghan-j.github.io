@@ -10,7 +10,7 @@ format: html
 ```{=html}
 <div class="timeline">
 <div class="timeline-item">
-<div class="timeline-date">May 2025 – Present</div>
+<div class="timeline-date">May 2025 – September 2026</div>
 <div class="timeline-info">
 <div class="timeline-title">Research Fellow</div>
 <div class="timeline-org">University of Padova, Dept. of Economics and Management, Padova, Italy.</div>

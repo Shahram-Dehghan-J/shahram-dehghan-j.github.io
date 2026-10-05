@@ -24,7 +24,7 @@ sidebar: false
 <!-- Bio Section -->
 <div class="bio">
   <p>
-    I am a <strong>Postdoctoral Research Fellow</strong> at the <strong>University of Padova</strong>, specializing in the intersection of macro-financial economics, time-series econometrics, and computational text analysis. My research framework leverages advanced programming expertise in <strong>Python, R, and MATLAB</strong> to extract latent economic signals from unstructured data and model systemic risk. My academic foundation includes a Ph.D. in Economics (Statistical Methods) from the <strong>University of Salerno</strong>, complemented by an international visiting research residency at <strong>Justus Liebig University Giessen (Germany)</strong> focused on automated ESG index construction and risk management applications. 
+    I was a <strong>Postdoctoral Research Fellow</strong> at the <strong>University of Padova</strong> (May 2024 -- September 2026), specializing in the intersection of macro-financial economics, time-series econometrics, and computational text analysis. My research framework leverages advanced programming expertise in <strong>Python, R, and MATLAB</strong> to extract latent economic signals from unstructured data and model systemic risk. My academic foundation includes a Ph.D. in Economics (Statistical Methods) from the <strong>University of Salerno</strong>, complemented by an international visiting research residency at <strong>Justus Liebig University Giessen (Germany)</strong> focused on automated ESG index construction and risk management applications. 
   </p>
 
   <p>

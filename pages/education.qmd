@@ -6,7 +6,7 @@ format: html
 <div class="rule-gradient"></div>
 # <i class="bi bi-people"></i> Postdoctoral & Research Fellowships
 
-**Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; May 2025 - present <br>
+**Research Fellow** &nbsp;&nbsp;&nbsp;&nbsp; May 2025 - September 2026 <br>
 Department of Economics and Management (dSEA), University of Padova, Italy <br><br>
 **PROJECTS/**<br>
 │<br>
@@ -23,7 +23,7 @@ Department of Economics and Management (dSEA), University of Padova, Italy <br><
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── *Entitled: "Sustainable procurement and CO2 reduction."* <br>
 │<br>
 └── PNRR–CHANGE/ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── `July 2026 - present` 🟢 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── `July 2026 - September 2026` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── `May 2025 - September 2025` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <small>Contratto per Prestazione di Lavoro Autonomo</small> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <small>Supervision:</small> Prof.ssa Alessia Russo<br>
