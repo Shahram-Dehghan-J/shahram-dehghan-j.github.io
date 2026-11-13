@@ -150,7 +150,7 @@ format:
 <div class="rule-gradient"></div>
 # <i class="bi bi-journal-text"></i> Thesis
 
-* [2024 July--Ph.D. Thesis]{style="background-color: lightgray; color: black; font-size: 1em; padding: 4px 8px; border-radius: 5px; font-weight: bold;"} **Essays on Financial Markets: Statistical Methods, Textual Analysis, and ESG Integration.** <br> Dehghan Jabarabadi, Sh. <br> Supervisor: Prof. Dr. Vincenzo Candila. <br> *Department of Economics and Statistics (DISES), University of Salerno, Italy*. <br> [URL: https://www.dises.unisa.it/en](https://www.dises.unisa.it/en)
+* [2024 July--Ph.D. Thesis]{style="background-color: lightgray; color: black; font-size: 1em; padding: 4px 8px; border-radius: 5px; font-weight: bold;"} **Essays on Financial Markets: Statistical Methods, Textual Analysis, and ESG Integration.** <br> Dehghan Jabarabadi, Sh. <br> Supervisor: Prof. Dr. Vincenzo Candila. <br> *Department of Economics and Statistics (DISES), University of Salerno, Italy*. <br> [URL: https://hdl.handle.net/11386/4968885](https://hdl.handle.net/11386/4968885)
 
 
 ---
